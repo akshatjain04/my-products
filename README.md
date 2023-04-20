@@ -8,7 +8,7 @@ To launch the app:
 
 # Using Local Run
 
-Right click on the [ProductionApplications.java](products\src\main\java\com\bootexample4\products\ProductsApplication.java) file.
+Right click on the [ProductionApplications.java](products\src\main\java\com\bootexample4\products\ProductsApplication.java) file, and click on `Run Java`.
 
 # Using Dockerfile
 
