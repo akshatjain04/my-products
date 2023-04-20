@@ -1,4 +1,4 @@
-### My-Products
+# My-Products
 
 A sample JAVA SpringBoot application that uses Java Persistence API to implement CRUD operations. 
 
@@ -6,11 +6,11 @@ A sample JAVA SpringBoot application that uses Java Persistence API to implement
 
 To launch the app:
 
-# Using Local Run
+### Using Local Run
 
 Right click on the [ProductionApplications.java](https://github.com/akshatjain04/my-products/blob/main/src/main/java/com/bootexample4/products/ProductsApplication.java) file, and click on `Run Java`.
 
-# Using Dockerfile
+### Using Dockerfile
 
 1. Build the docker image:
      `docker build -t my-products:1.0 .`
@@ -19,7 +19,7 @@ Right click on the [ProductionApplications.java](https://github.com/akshatjain04
 
 In both the cases, the app must be accessible at http://localhost:8080/
 
-# What the app does
+## What the app does
 
 A product has following properties:
 
