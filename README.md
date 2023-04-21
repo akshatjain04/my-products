@@ -12,7 +12,7 @@ Right click on the [ProductionApplications.java](https://github.com/akshatjain04
 
 ### Using Dockerfile
 
-1. Build the docker image:
+1. Build the docker image in the base directory:
      `docker build -t my-products:1.0 .`
 2. Run the image:
      `docker run -d -p 8080:8080 my-products:1.0`
