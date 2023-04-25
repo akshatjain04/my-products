@@ -33,8 +33,8 @@ public class ProductControllerTest {
 
     @BeforeEach
     public void setUp() {
-        product1 = new Product(1L, "Product 1", "Description 1", 100.0);
-        product2 = new Product(2L, "Product 2", "Description 2", 200.0);
+       product1 = new Product(1L, "Product 1", "Description 1", 100.0);
+       product2 = new Product(2L, "Product 2", "Description 2", 200.0);
     }
 
     @Test
@@ -69,9 +69,9 @@ public class ProductControllerTest {
 
     @Test
     public void testGetProductByIdNotFound() {
-        when(productRepository.findById(1L)).thenReturn(Optional.empty());
+        when(productRepository.findById(3L)).thenReturn(Optional.empty());
 
-        ResponseEntity<Product> response = productController.getProductById(1L);
+        ResponseEntity<Product> response = productController.getProductById(2L);
 
         assertThat(response.getStatusCodeValue()).isEqualTo(404);
     }
@@ -81,6 +81,7 @@ public class ProductControllerTest {
         when(productRepository.findById(1L)).thenReturn(Optional.of(product1));
         when(productRepository.save(any(Product.class))).thenReturn(product1);
 
+        product1.setPrice(300.00);
         ResponseEntity<Product> response = productController.updateProduct(1L, product1);
 
         assertThat(response.getStatusCodeValue()).isEqualTo(200);
@@ -89,9 +90,9 @@ public class ProductControllerTest {
 
     @Test
     public void testUpdateProductNotFound() {
-        when(productRepository.findById(1L)).thenReturn(Optional.empty());
+        when(productRepository.findById(3L)).thenReturn(Optional.empty());
 
-        ResponseEntity<Product> response = productController.updateProduct(1L, product1);
+        ResponseEntity<Product> response = productController.updateProduct(3L, product1);
 
         assertThat(response.getStatusCodeValue()).isEqualTo(404);
     }
@@ -110,7 +111,7 @@ public class ProductControllerTest {
     public void testDeleteProductNotFound() {
         when(productRepository.findById(1L)).thenReturn(Optional.empty());
 
-        ResponseEntity<Object> response = productController.deleteProduct(1L);
+        ResponseEntity<Object> response = productController.deleteProduct(3L);
 
         assertThat(response.getStatusCodeValue()).isEqualTo(404);
     }

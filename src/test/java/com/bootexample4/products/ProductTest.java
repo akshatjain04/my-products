@@ -1,3 +1,5 @@
+package com.bootexample4.products;
+
 import com.bootexample4.products.model.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
