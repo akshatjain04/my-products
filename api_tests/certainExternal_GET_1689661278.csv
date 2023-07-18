@@ -1,0 +1,16 @@
+import csv
+import random
+import faker
+from faker import Faker
+
+fake = Faker()
+
+def generate_dummy_data(num_records):
+    with open('dummy_data.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["ID", "Name", "Email", "Date of Birth", "Phone Number"])
+
+        for _ in range(num_records):
+            writer.writerow([random.randint(1, 100), fake.name(), fake.email(), fake.date_of_birth(), fake.phone_number()])
+
+generate_dummy_data(2)
