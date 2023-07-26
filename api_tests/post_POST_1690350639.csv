@@ -1,0 +1,11 @@
+id,name,request,response,event
+1,John Doe,GET,200,Login
+2,Jane Smith,POST,201,Registration
+3,Robert Johnson,PUT,200,Profile Update
+4,Patricia Brown,DELETE,204,Account Deletion
+5,James Davis,GET,404,Page Not Found
+6,Jennifer Miller,POST,500,Server Error
+7,Michael Wilson,PUT,403,Access Denied
+8,Linda Taylor,GET,200,Profile View
+9,William Anderson,POST,201,Message Sent
+10,Elizabeth Thomas,DELETE,204,Post Deletion
