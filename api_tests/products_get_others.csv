@@ -1,0 +1,11 @@
+invalidId,invalidName,invalidDescription,invalidPrice
+123,John Doe,High-quality leather wallet,19.99
+abc123,Jane Smith,Super soft cotton t-shirt,-25.00
+456,,Only the best electronics,150.00
+789,InvalidCharacters#$%,A very long description that probably doesn't make sense because it's just too long and filled with all sorts of unnecessary details and information that doesn't add any value to the description itself,99.99
+XYZ,Emily Johnson,,1000000
+101112,Michael Brown,This is a sample description with numbers 1234567890,0
+314159,Anna Lee,Description with special characters !@#$%^&*(),-49.99
+,,No name or ID, just a description,10.00
+87654321,Bob Miller,Another description with <HTML> tags,20.20
+13579,Carol White,Description with emojis 😃👍🎉,free
