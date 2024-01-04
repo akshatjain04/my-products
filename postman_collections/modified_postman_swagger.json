@@ -1,0 +1,318 @@
+{
+  "item": [
+    {
+      "id": "733af304-8313-4408-887c-6015c6fdd3c3",
+      "name": "api",
+      "item": [
+        {
+          "id": "4fd07cb8-1187-413d-b13d-d141ae7c1be6",
+          "name": "autoscale",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        {
+          "id": "f7f93932-6979-4e47-8bf9-7d6375af09e7",
+          "name": "cluster",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "02b19296-a782-4786-b925-b6c2261a9f7f",
+          "name": "clusters",
+          "item": [
+            {
+              "id": "0c10af1f-2cb0-4415-9893-803f18c5fd73",
+              "name": "Get",
+              "request": {
+                "name": "Get",
+                "description": {},
+                "url": {
+                  "path": [
+                    "api",
+                    "clusters"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "auth": null
+              },
+              "response": [
+                {
+                  "id": "25e87a58-8a02-4b16-9e0f-d2f63e748b06",
+                  "name": "GetClusterResponse",
+                  "originalRequest": {
+                    "url": {
+                      "path": [
+                        "api",
+                        "clusters"
+                      ],
+                      "host": [
+                        "{{baseUrl}}"
+                      ],
+                      "query": [],
+                      "variable": []
+                    },
+                    "header": [
+                      {
+                        "description": {
+                          "content": "Added as a part of security scheme: apikey",
+                          "type": "text/plain"
+                        },
+                        "key": "ZBIO_CLUSTER_KEY",
+                        "value": "{{ZBIO_CLUSTER_KEY}}"
+                      },
+                      {
+                        "key": "Accept",
+                        "value": "application/json"
+                      }
+                    ],
+                    "method": "GET",
+                    "body": {}
+                  },
+                  "status": "OK",
+                  "code": 200,
+                  "header": [
+                    {
+                      "key": "Content-Type",
+                      "value": "application/json"
+                    }
+                  ],
+                  "body": "{\n  \"jwt_token\": \"nisi\",\n  \"message\": \"culpa \",\n  \"project_id\": \"consectetur\",\n  \"spec\": {\n    \"cluster_id\": 351290,\n    \"cluster_type\": \"qui \",\n    \"credential\": {},\n    \"description\": \"deserunt qui ea dolore esse\",\n    \"device_id\": \"cillum dolor\",\n    \"jumphost\": {\n      \"endpoint\": \"i\",\n      \"organization_jumphost\": false,\n      \"password\": \"sint cillum pariatur elit te\",\n      \"ssh_pem_file\": \"sit tempor magna nisi\",\n      \"token\": \"dolo\",\n      \"username\": \"consectetur adipisicing\"\n    },\n    \"kube_config_path\": \"eiusmod do\",\n    \"kubernetes_version\": \"qui irure officia culpa\",\n    \"name\": \"cillum laborum\",\n    \"nodes\": [\n      {\n        \"ami\": \"incididunt\",\n        \"disk_size\": \"eiusmod culpa deserunt pariatur tempor\",\n        \"instance_type\": \"Lorem consectetur adipisicing\",\n        \"name\": \"irure exercitation non ut\",\n        \"node_type\": \"dolore\"\n      },\n      {\n        \"ami\": \"incididunt officia Excepteur\",\n        \"disk_size\": \"officia irure Lorem u\",\n        \"instance_type\": \"id est\",\n        \"name\": \"dolore\",\n        \"node_type\": \"ipsum Excepteur\"\n      }\n    ],\n    \"provider\": \"laboris ut\",\n    \"region\": \"fugiat\",\n    \"roost_config\": {\n      \"allow_root_containers\": false,\n      \"auto_destroy\": 68319530,\n      \"autodeploy\": true,\n      \"client\": \"ullamco Lorem consequat mollit non\",\n      \"cluster_access_token\": \"enim et ullamco dolore\",\n      \"configmap_secret_rsrcs_auto_update\": true,\n      \"disk\": \"laboris reprehenderit non\",\n      \"docker_daemon\": \"in do in pariatur anim\",\n      \"docker_registry\": \"ad id in ut\",\n      \"email\": \"qui ex veniam\",\n      \"env_config\": \"tempor consectetu\",\n      \"heterogeneous\": true,\n      \"image_auto_update_rsrcs\": true,\n      \"image_retention_period\": 52509206,\n      \"install_script\": [\n        \"sint\",\n        \"anim eiusmod\"\n      ],\n      \"local_cluster_size\": \"mollit ea sit\",\n      \"log_level\": \"amet\",\n      \"max_spot_price\": \"qui et mollit labore\",\n      \"memory\": \"ad nisi adipisicing in\",\n      \"node_directory\": \"nostrud cupidatat officia in\",\n      \"organization_data\": {\n        \"cluster_short_name\": \"cupidatat dolor fugiat in\",\n        \"defer_in_hrs\": 94189250,\n        \"jumphost_id\": \"sint minim aliqua Ut\",\n        \"time_schedule\": {\n          \"days\": [\n            {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            },\n            {\n              \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n            }\n          ],\n          \"sleep_time\": \"sint officia ullamco eu\",\n          \"timezone\": \"exercitation aliqua deserunt quis est\",\n          \"wakeup_time\": \"cupidatat aliquip sed\"\n        },\n        \"turn_off_schedule\": false\n      },\n      \"plugins\": {\n        \"airflow\": false,\n        \"argo\": true,\n        \"falco\": true,\n        \"hnc\": false,\n        \"istio\": false,\n        \"linkerd\": true,\n        \"servicemesh\": {\n          \"enabled\": false,\n          \"error_rate\": 37275635,\n          \"interval_time\": {\n            \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n          },\n          \"latency\": 44347593,\n          \"request_rate\": 78553556,\n          \"saturation\": 54536693\n        },\n        \"slack\": {\n          \"channel\": \"reprehenderit deserunt nisi\",\n          \"enabled\": true,\n          \"token\": \"pariatur cupidatat do in\"\n        }\n      },\n      \"pod_security_policy\": false,\n      \"preemptible\": true,\n      \"random_tag_docker_build\": true,\n      \"rbac_scope\": \"culpa est aliquip \",\n      \"registry_type\": \"sunt \",\n      \"roost_auth_token\": \"sin\",\n      \"roost_username\": \"sed t\",\n      \"roostapi_key\": \"exercitation dolor q\",\n      \"spot_instance_type\": \"deserunt non\",\n      \"storage_per_node\": \"ut qui lab\",\n      \"uninstall_script\": [\n        \"exercitation voluptate\",\n        \"in reprehenderit\"\n      ],\n      \"vcpu\": 20523431.937481493,\n      \"vcpu_execution_cap\": 1522203.633570969\n    },\n    \"size\": -9089785,\n    \"type\": \"est\",\n    \"user_role\": \"veniam voluptate Ut\",\n    \"zone\": \"laboris sed exercitation et tempor\"\n  },\n  \"status\": {\n    \"PlugInStatus\": {\n      \"Airflow\": \"ipsum dolore dolor\",\n      \"Argo\": \"enim mollit aute non\",\n      \"Falco\": \"occaecat enim\",\n      \"HNC\": \"sit\",\n      \"ServiceMesh\": \"sunt\",\n      \"Slack\": \"eu culpa anim ipsum\"\n    },\n    \"added_at\": -13204944.525695562,\n    \"cluster_ip\": \"id reprehenderit aliquip cillum\",\n    \"label\": \"voluptate in aliquip ullamco ea\",\n    \"message\": \"ut cupidatat laborum Ut\",\n    \"nodes\": [\n      {\n        \"instance_type\": \"nostrud amet culpa dolor\",\n        \"ip_external\": \"laborum ullamco\",\n        \"ip_internal\": \"minim nulla cupidatat veniam\",\n        \"name\": \"irure occaecat ea amet\",\n        \"node_type\": \"dolore aliquip aute\"\n      },\n      {\n        \"instance_type\": \"anim dolor Ut nostr\",\n        \"ip_external\": \"nisi amet consequat\",\n        \"ip_internal\": \"esse nisi voluptate\",\n        \"name\": \"cupidatat elit quis\",\n        \"node_type\": \"commodo ut\"\n      }\n    ],\n    \"state\": \"irure nostrud ullamco ali\",\n    \"ResponseCode\": -82137366,\n    \"ResponseDescription\": \"nostrud ut minim\",\n    \"ClusterLockStatus\": true,\n    \"UserName\": \"commodo enim Exc\"\n  },\n  \"token_management_script\": \"in ea laboris est\"\n}",
+                  "cookie": [],
+                  "_postman_previewlanguage": "json"
+                }
+              ],
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      " \n// Test generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roost-gpt4-32k\n\n\n\n// Test generated for /api/clusters for http method type get in postman framework\n\n\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    responseData = xml2Json(responseBody);\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n  pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"GetClusterResponse\", function () {\n      pm.expect(pm.response.status).to.be.eql(\"OK\");\n      pm.test('Response has the `jwt_token` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"jwt_token\")){\n          if(responseData.jwt_token!=null){\n            pm.expect(typeof _.get(responseData, \"jwt_token\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `message` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"message\")){\n          if(responseData.message!=null){\n            pm.expect(typeof _.get(responseData, \"message\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `project_id` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"project_id\")){\n          if(responseData.project_id!=null){\n            pm.expect(typeof _.get(responseData, \"project_id\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec\")){\n          if(responseData.spec!=null){\n            pm.expect(typeof _.get(responseData, \"spec\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.cluster_id` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.cluster_id\")){\n            if(responseData.spec.cluster_id!=null){\n              pm.expect(typeof _.get(responseData, \"spec.cluster_id\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `spec.cluster_type` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.cluster_type\")){\n          if(responseData.spec.cluster_type!=null){\n            pm.expect(typeof _.get(responseData, \"spec.cluster_type\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.credential` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.credential\")){\n          if(responseData.spec.credential!=null){\n            pm.expect(typeof _.get(responseData, \"spec.credential\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.description` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.description\")){\n          if(responseData.spec.description!=null){\n            pm.expect(typeof _.get(responseData, \"spec.description\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.device_id` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.device_id\")){\n          if(responseData.spec.device_id!=null){\n            pm.expect(typeof _.get(responseData, \"spec.device_id\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost\")){\n          if(responseData.spec.jumphost!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.endpoint` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.endpoint\")){\n          if(responseData.spec.jumphost.endpoint!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.endpoint\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.organization_jumphost` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.organization_jumphost\")){\n          if(responseData.spec.jumphost.organization_jumphost!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.organization_jumphost\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.password` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.password\")){\n          if(responseData.spec.jumphost.password!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.password\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.ssh_pem_file` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.ssh_pem_file\")){\n          if(responseData.spec.jumphost.ssh_pem_file!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.ssh_pem_file\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.token` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.token\")){\n          if(responseData.spec.jumphost.token!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.token\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.jumphost.username` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.jumphost.username\")){\n          if(responseData.spec.jumphost.username!=null){\n            pm.expect(typeof _.get(responseData, \"spec.jumphost.username\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.kube_config_path` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.kube_config_path\")){\n          if(responseData.spec.kube_config_path!=null){\n            pm.expect(typeof _.get(responseData, \"spec.kube_config_path\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.kubernetes_version` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.kubernetes_version\")){\n          if(responseData.spec.kubernetes_version!=null){\n            pm.expect(typeof _.get(responseData, \"spec.kubernetes_version\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.name` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.name\")){\n          if(responseData.spec.name!=null){\n            pm.expect(typeof _.get(responseData, \"spec.name\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n      \n        pm.test('Response has the `spec.nodes` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.nodes\")){\n            if(responseData.spec.nodes!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"spec.nodes\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Each object in the `spec.nodes` field has all the required fields',function(){         \n          pm.expect(responseData).to.have.nested.property(\"spec.nodes\");  \n          let nodesArray = _.get(responseData, \"spec.nodes\", \"\");  \n          for (let i = 0; i < nodesArray.length; i++) {  \n            \t\n      pm.test(`${i} element of array 'spec.nodes' has 'ami' as 'string'`,function(){ \n        if(pm.expect(responseData.spec.nodes[i]).to.have.nested.property(\"ami\")){\n          if(responseData.spec.nodes[i].ami != null){\n            pm.expect(typeof _.get(responseData,`spec.nodes[${i}].ami`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'spec.nodes' has 'disk_size' as 'string'`,function(){ \n        if(pm.expect(responseData.spec.nodes[i]).to.have.nested.property(\"disk_size\")){\n          if(responseData.spec.nodes[i].disk_size != null){\n            pm.expect(typeof _.get(responseData,`spec.nodes[${i}].disk_size`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'spec.nodes' has 'instance_type' as 'string'`,function(){ \n        if(pm.expect(responseData.spec.nodes[i]).to.have.nested.property(\"instance_type\")){\n          if(responseData.spec.nodes[i].instance_type != null){\n            pm.expect(typeof _.get(responseData,`spec.nodes[${i}].instance_type`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'spec.nodes' has 'name' as 'string'`,function(){ \n        if(pm.expect(responseData.spec.nodes[i]).to.have.nested.property(\"name\")){\n          if(responseData.spec.nodes[i].name != null){\n            pm.expect(typeof _.get(responseData,`spec.nodes[${i}].name`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'spec.nodes' has 'node_type' as 'string'`,function(){ \n        if(pm.expect(responseData.spec.nodes[i]).to.have.nested.property(\"node_type\")){\n          if(responseData.spec.nodes[i].node_type != null){\n            pm.expect(typeof _.get(responseData,`spec.nodes[${i}].node_type`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n  \n          }\n\n      })\n\n      pm.test('Response has the `spec.provider` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.provider\")){\n          if(responseData.spec.provider!=null){\n            pm.expect(typeof _.get(responseData, \"spec.provider\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.region` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.region\")){\n          if(responseData.spec.region!=null){\n            pm.expect(typeof _.get(responseData, \"spec.region\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config\")){\n          if(responseData.spec.roost_config!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.allow_root_containers` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.allow_root_containers\")){\n          if(responseData.spec.roost_config.allow_root_containers!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.allow_root_containers\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.roost_config.auto_destroy` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.auto_destroy\")){\n            if(responseData.spec.roost_config.auto_destroy!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.auto_destroy\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `spec.roost_config.autodeploy` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.autodeploy\")){\n          if(responseData.spec.roost_config.autodeploy!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.autodeploy\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.client` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.client\")){\n          if(responseData.spec.roost_config.client!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.client\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.cluster_access_token` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.cluster_access_token\")){\n          if(responseData.spec.roost_config.cluster_access_token!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.cluster_access_token\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.configmap_secret_rsrcs_auto_update` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.configmap_secret_rsrcs_auto_update\")){\n          if(responseData.spec.roost_config.configmap_secret_rsrcs_auto_update!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.configmap_secret_rsrcs_auto_update\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.disk` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.disk\")){\n          if(responseData.spec.roost_config.disk!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.disk\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.docker_daemon` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.docker_daemon\")){\n          if(responseData.spec.roost_config.docker_daemon!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.docker_daemon\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.docker_registry` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.docker_registry\")){\n          if(responseData.spec.roost_config.docker_registry!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.docker_registry\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.email` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.email\")){\n          if(responseData.spec.roost_config.email!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.email\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.env_config` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.env_config\")){\n          if(responseData.spec.roost_config.env_config!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.env_config\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.heterogeneous` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.heterogeneous\")){\n          if(responseData.spec.roost_config.heterogeneous!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.heterogeneous\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.image_auto_update_rsrcs` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.image_auto_update_rsrcs\")){\n          if(responseData.spec.roost_config.image_auto_update_rsrcs!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.image_auto_update_rsrcs\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.roost_config.image_retention_period` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.image_retention_period\")){\n            if(responseData.spec.roost_config.image_retention_period!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.image_retention_period\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n      \n        pm.test('Response has the `spec.roost_config.install_script` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.install_script\")){\n            if(responseData.spec.roost_config.install_script!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"spec.roost_config.install_script\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Response has the `spec.roost_config.local_cluster_size` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.local_cluster_size\")){\n          if(responseData.spec.roost_config.local_cluster_size!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.local_cluster_size\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.log_level` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.log_level\")){\n          if(responseData.spec.roost_config.log_level!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.log_level\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.max_spot_price` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.max_spot_price\")){\n          if(responseData.spec.roost_config.max_spot_price!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.max_spot_price\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.memory` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.memory\")){\n          if(responseData.spec.roost_config.memory!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.memory\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.node_directory` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.node_directory\")){\n          if(responseData.spec.roost_config.node_directory!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.node_directory\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data\")){\n          if(responseData.spec.roost_config.organization_data!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.cluster_short_name` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.cluster_short_name\")){\n          if(responseData.spec.roost_config.organization_data.cluster_short_name!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.cluster_short_name\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.roost_config.organization_data.defer_in_hrs` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.defer_in_hrs\")){\n            if(responseData.spec.roost_config.organization_data.defer_in_hrs!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.defer_in_hrs\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `spec.roost_config.organization_data.jumphost_id` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.jumphost_id\")){\n          if(responseData.spec.roost_config.organization_data.jumphost_id!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.jumphost_id\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.time_schedule` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.time_schedule\")){\n          if(responseData.spec.roost_config.organization_data.time_schedule!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.time_schedule\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n      \n        pm.test('Response has the `spec.roost_config.organization_data.time_schedule.days` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.time_schedule.days\")){\n            if(responseData.spec.roost_config.organization_data.time_schedule.days!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"spec.roost_config.organization_data.time_schedule.days\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.time_schedule.sleep_time` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.time_schedule.sleep_time\")){\n          if(responseData.spec.roost_config.organization_data.time_schedule.sleep_time!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.time_schedule.sleep_time\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.time_schedule.timezone` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.time_schedule.timezone\")){\n          if(responseData.spec.roost_config.organization_data.time_schedule.timezone!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.time_schedule.timezone\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.time_schedule.wakeup_time` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.time_schedule.wakeup_time\")){\n          if(responseData.spec.roost_config.organization_data.time_schedule.wakeup_time!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.time_schedule.wakeup_time\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.organization_data.turn_off_schedule` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.organization_data.turn_off_schedule\")){\n          if(responseData.spec.roost_config.organization_data.turn_off_schedule!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.organization_data.turn_off_schedule\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins\")){\n          if(responseData.spec.roost_config.plugins!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.airflow` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.airflow\")){\n          if(responseData.spec.roost_config.plugins.airflow!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.airflow\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.argo` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.argo\")){\n          if(responseData.spec.roost_config.plugins.argo!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.argo\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.falco` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.falco\")){\n          if(responseData.spec.roost_config.plugins.falco!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.falco\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.hnc` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.hnc\")){\n          if(responseData.spec.roost_config.plugins.hnc!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.hnc\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.istio` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.istio\")){\n          if(responseData.spec.roost_config.plugins.istio!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.istio\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.linkerd` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.linkerd\")){\n          if(responseData.spec.roost_config.plugins.linkerd!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.linkerd\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.servicemesh` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh\")){\n          if(responseData.spec.roost_config.plugins.servicemesh!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.servicemesh.enabled` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.enabled\")){\n          if(responseData.spec.roost_config.plugins.servicemesh.enabled!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.enabled\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.roost_config.plugins.servicemesh.error_rate` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.error_rate\")){\n            if(responseData.spec.roost_config.plugins.servicemesh.error_rate!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.error_rate\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `spec.roost_config.plugins.servicemesh.interval_time` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.interval_time\")){\n            if(responseData.spec.roost_config.plugins.servicemesh.interval_time!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.interval_time\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `spec.roost_config.plugins.servicemesh.latency` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.latency\")){\n            if(responseData.spec.roost_config.plugins.servicemesh.latency!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.latency\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `spec.roost_config.plugins.servicemesh.request_rate` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.request_rate\")){\n            if(responseData.spec.roost_config.plugins.servicemesh.request_rate!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.request_rate\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n        pm.test('Response has the `spec.roost_config.plugins.servicemesh.saturation` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.servicemesh.saturation\")){\n            if(responseData.spec.roost_config.plugins.servicemesh.saturation!=null){\n              pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.servicemesh.saturation\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `spec.roost_config.plugins.slack` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.slack\")){\n          if(responseData.spec.roost_config.plugins.slack!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.slack\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.slack.channel` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.slack.channel\")){\n          if(responseData.spec.roost_config.plugins.slack.channel!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.slack.channel\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.slack.enabled` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.slack.enabled\")){\n          if(responseData.spec.roost_config.plugins.slack.enabled!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.slack.enabled\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.plugins.slack.token` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.plugins.slack.token\")){\n          if(responseData.spec.roost_config.plugins.slack.token!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.plugins.slack.token\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.pod_security_policy` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.pod_security_policy\")){\n          if(responseData.spec.roost_config.pod_security_policy!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.pod_security_policy\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.preemptible` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.preemptible\")){\n          if(responseData.spec.roost_config.preemptible!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.preemptible\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.random_tag_docker_build` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.random_tag_docker_build\")){\n          if(responseData.spec.roost_config.random_tag_docker_build!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.random_tag_docker_build\", \"\")).to.equal(\"boolean\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.rbac_scope` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.rbac_scope\")){\n          if(responseData.spec.roost_config.rbac_scope!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.rbac_scope\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.registry_type` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.registry_type\")){\n          if(responseData.spec.roost_config.registry_type!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.registry_type\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.roost_auth_token` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.roost_auth_token\")){\n          if(responseData.spec.roost_config.roost_auth_token!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.roost_auth_token\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.roost_username` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.roost_username\")){\n          if(responseData.spec.roost_config.roost_username!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.roost_username\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.roostapi_key` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.roostapi_key\")){\n          if(responseData.spec.roost_config.roostapi_key!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.roostapi_key\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.spot_instance_type` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.spot_instance_type\")){\n          if(responseData.spec.roost_config.spot_instance_type!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.spot_instance_type\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.storage_per_node` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.storage_per_node\")){\n          if(responseData.spec.roost_config.storage_per_node!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.storage_per_node\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n      \n        pm.test('Response has the `spec.roost_config.uninstall_script` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.uninstall_script\")){\n            if(responseData.spec.roost_config.uninstall_script!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"spec.roost_config.uninstall_script\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Response has the `spec.roost_config.vcpu` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.vcpu\")){\n          if(responseData.spec.roost_config.vcpu!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.vcpu\", \"\")).to.equal(\"number\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.roost_config.vcpu_execution_cap` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.roost_config.vcpu_execution_cap\")){\n          if(responseData.spec.roost_config.vcpu_execution_cap!=null){\n            pm.expect(typeof _.get(responseData, \"spec.roost_config.vcpu_execution_cap\", \"\")).to.equal(\"number\");\n          }\n        }\n\n      })\n          \n\n        pm.test('Response has the `spec.size` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"spec.size\")){\n            if(responseData.spec.size!=null){\n              pm.expect(typeof _.get(responseData, \"spec.size\", 200)).to.equal(\"number\");\n            }\n          }\n\n        })\n\n      pm.test('Response has the `spec.type` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.type\")){\n          if(responseData.spec.type!=null){\n            pm.expect(typeof _.get(responseData, \"spec.type\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.user_role` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.user_role\")){\n          if(responseData.spec.user_role!=null){\n            pm.expect(typeof _.get(responseData, \"spec.user_role\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `spec.zone` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"spec.zone\")){\n          if(responseData.spec.zone!=null){\n            pm.expect(typeof _.get(responseData, \"spec.zone\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status\")){\n          if(responseData.status!=null){\n            pm.expect(typeof _.get(responseData, \"status\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus\")){\n          if(responseData.status.PlugInStatus!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus\", \"\")).to.equal(\"object\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.Airflow` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.Airflow\")){\n          if(responseData.status.PlugInStatus.Airflow!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.Airflow\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.Argo` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.Argo\")){\n          if(responseData.status.PlugInStatus.Argo!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.Argo\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.Falco` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.Falco\")){\n          if(responseData.status.PlugInStatus.Falco!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.Falco\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.HNC` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.HNC\")){\n          if(responseData.status.PlugInStatus.HNC!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.HNC\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.ServiceMesh` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.ServiceMesh\")){\n          if(responseData.status.PlugInStatus.ServiceMesh!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.ServiceMesh\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.PlugInStatus.Slack` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.PlugInStatus.Slack\")){\n          if(responseData.status.PlugInStatus.Slack!=null){\n            pm.expect(typeof _.get(responseData, \"status.PlugInStatus.Slack\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.added_at` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.added_at\")){\n          if(responseData.status.added_at!=null){\n            pm.expect(typeof _.get(responseData, \"status.added_at\", \"\")).to.equal(\"number\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.cluster_ip` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.cluster_ip\")){\n          if(responseData.status.cluster_ip!=null){\n            pm.expect(typeof _.get(responseData, \"status.cluster_ip\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.label` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.label\")){\n          if(responseData.status.label!=null){\n            pm.expect(typeof _.get(responseData, \"status.label\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `status.message` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.message\")){\n          if(responseData.status.message!=null){\n            pm.expect(typeof _.get(responseData, \"status.message\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n      \n        pm.test('Response has the `status.nodes` field',function(){\n          if(pm.expect(responseData).to.have.nested.property(\"status.nodes\")){\n            if(responseData.status.nodes!=null){\n              pm.expect(Array.isArray(_.get(responseData, \"status.nodes\"))).to.equal(true);\n            }\n          }\n\n        })\n          \n\n      pm.test('Each object in the `status.nodes` field has all the required fields',function(){         \n          pm.expect(responseData).to.have.nested.property(\"status.nodes\");  \n          let nodesArray = _.get(responseData, \"status.nodes\", \"\");  \n          for (let i = 0; i < nodesArray.length; i++) {  \n            \t\n      pm.test(`${i} element of array 'status.nodes' has 'instance_type' as 'string'`,function(){ \n        if(pm.expect(responseData.status.nodes[i]).to.have.nested.property(\"instance_type\")){\n          if(responseData.status.nodes[i].instance_type != null){\n            pm.expect(typeof _.get(responseData,`status.nodes[${i}].instance_type`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'status.nodes' has 'ip_external' as 'string'`,function(){ \n        if(pm.expect(responseData.status.nodes[i]).to.have.nested.property(\"ip_external\")){\n          if(responseData.status.nodes[i].ip_external != null){\n            pm.expect(typeof _.get(responseData,`status.nodes[${i}].ip_external`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'status.nodes' has 'ip_internal' as 'string'`,function(){ \n        if(pm.expect(responseData.status.nodes[i]).to.have.nested.property(\"ip_internal\")){\n          if(responseData.status.nodes[i].ip_internal != null){\n            pm.expect(typeof _.get(responseData,`status.nodes[${i}].ip_internal`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'status.nodes' has 'name' as 'string'`,function(){ \n        if(pm.expect(responseData.status.nodes[i]).to.have.nested.property(\"name\")){\n          if(responseData.status.nodes[i].name != null){\n            pm.expect(typeof _.get(responseData,`status.nodes[${i}].name`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n\n      pm.test(`${i} element of array 'status.nodes' has 'node_type' as 'string'`,function(){ \n        if(pm.expect(responseData.status.nodes[i]).to.have.nested.property(\"node_type\")){\n          if(responseData.status.nodes[i].node_type != null){\n            pm.expect(typeof _.get(responseData,`status.nodes[${i}].node_type`, \"\")).to.equal(\"string\");\n          }\n        }\n      })\n \n  \n          }\n\n      })\n\n      pm.test('Response has the `status.state` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"status.state\")){\n          if(responseData.status.state!=null){\n            pm.expect(typeof _.get(responseData, \"status.state\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n\n      pm.test('Response has the `token_management_script` field',function(){\n        if(pm.expect(responseData).to.have.nested.property(\"token_management_script\")){\n          if(responseData.token_management_script!=null){\n            pm.expect(typeof _.get(responseData, \"token_management_script\", \"\")).to.equal(\"string\");\n          }\n        }\n\n      })\n          \n});\n}\n"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "protocolProfileBehavior": {
+                "disableBodyPruning": true
+              }
+            },
+            null,
+            {
+              "id": "602a5368-a3cf-4f3c-9c80-57e06094e1fa",
+              "name": "{name}",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            },
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "33b3b6e2-cdc4-4de2-9abd-cc94ca3deb75",
+          "name": "collab",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        {
+          "id": "f00ddd02-39bf-4483-b308-61b3168cc87a",
+          "name": "eaas",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        {
+          "id": "540a852d-21f6-4064-b3d2-3833834e57e3",
+          "name": "fitness",
+          "item": [
+            {
+              "id": "b4b5c4c3-a259-4250-83d5-7e6b14a969bb",
+              "name": "image",
+              "item": [
+                {
+                  "id": "80f50d0a-3150-4b11-aa16-62abccb0c9a6",
+                  "name": "deprsrcs",
+                  "item": [
+                    null,
+                    null
+                  ],
+                  "event": []
+                },
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "0a763d5b-65de-46e9-a1da-000af44ff30d",
+          "name": "k8s",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "b9c35cab-2d32-441a-8411-62f1da704349",
+          "name": "registry",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "3d094c01-5657-4e55-a8b3-3606a7dc6f2f",
+          "name": "remote",
+          "item": [
+            {
+              "id": "293c6b7c-bc38-42c1-8bbd-a9c17772deac",
+              "name": "cluster",
+              "item": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "event": []
+            },
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+          "id": "c9025035-0215-4d8a-a95a-a56620dba59f",
+          "name": "team",
+          "item": [
+            null,
+            null
+          ],
+          "event": []
+        },
+        {
+          "id": "0dcbc34e-065a-416d-9b28-badefacc2bdb",
+          "name": "test",
+          "item": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null
+      ],
+      "event": []
+    },
+    null
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://roostapi.roost.io:60001",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "ZBIO_CLUSTER_KEY"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "0bdbe910-a79f-4ef9-8721-143f744a3328",
+    "name": "RoostAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "RoostAPI exposes REST API endpoint to manage Roost Infrastructure\n\nContact Support:\n Name: Roost.io\n Email: sudhir@zb.io",
+      "type": "text/plain"
+    }
+  }
+}
