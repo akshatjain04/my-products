@@ -1,0 +1,11 @@
+id,username,email,age,country,gender,registration_date
+1,johndoe,johndoe@example.com,28,USA,Male,2020-02-20
+2,janesmith,janesmith@example.com,32,Canada,Female,2018-07-12
+3,robertbrown,robertbrown@example.com,35,UK,Male,2019-10-08
+4,emilyjohnson,emilyjohnson@example.com,26,Australia,Female,2021-01-15
+5,michaelmiller,michaelmiller@example.com,30,USA,Male,2017-08-24
+6,marydavis,marydavis@example.com,29,Canada,Female,2022-02-11
+7,wilsonjackson,wilsonjackson@example.com,31,UK,Male,2016-05-19
+8,elizabeththomas,elizabeththomas@example.com,27,Australia,Female,2018-12-22
+9,harrywilliams,harrywilliams@example.com,33,USA,Male,2020-07-14
+10,lindawilson,lindawilson@example.com,34,Canada,Female,2019-11-30
