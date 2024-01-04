@@ -1,0 +1,11 @@
+commit-hash,email,statusCode
+1a2b3c4,user1@example.com,200
+2b3c4d5,user2@example.com,201
+3c4d5e6,user3@example.com,404
+4d5e6f7,user4@example.com,200
+5e6f781,user5@example.com,200
+6f781g2,user6@example.com,201
+7g812h3,user7@example.com,404
+8h921i4,user8@example.com,500
+9i102j5,user9@example.com,403
+a2103k6,user10@example.com,401

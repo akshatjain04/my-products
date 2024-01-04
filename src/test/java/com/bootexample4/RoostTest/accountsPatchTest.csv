@@ -1,0 +1,11 @@
+email,statusCode
+user1@example.com,200
+user2@example.com,200
+user3@example.com,400
+user4@example.com,400
+user5@example.com,500
+user6@example.com,200
+user7@example.com,400
+user8@example.com,500
+user9@example.com,200
+user10@example.com,500
