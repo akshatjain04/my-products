@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^/api/products^|^ContentType: JSON^|^{ "name": "Test Product", "description": "This is a test product.", "price": 10.0 }^|^200^|^{ "name": "Test Product", "description": "This is a test product.", "price": 10.0 }

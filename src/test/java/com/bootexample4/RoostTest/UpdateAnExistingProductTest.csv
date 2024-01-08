@@ -1,0 +1,3 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/products/{productId}^|^{}^|^{}^|^200^|^{ "id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)", "headers": "No response headers" }
+put^|^/products/{productId}^|^{ "header1": "value1", "header2": "value2" }^|^{ "id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)" }^|^200^|^{ "id": "integer(format: int64)", "name": "Updated Product", "description": "This is an updated test product.", "price": "15.0", "headers": "No response headers" }
