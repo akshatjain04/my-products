@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^/products^|^Content-Type: application/json^|^{"name": "Test Product", "description": "This is a test product.", "price": 10.0}^|^200^|^{"id":"integer(format: int64)", "name":"Test Product", "description":"This is a test product.", "price":"integer(format: int64)"}

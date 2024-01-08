@@ -1,0 +1,3 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/api/products/{productId}^|^{}^|^{}^|^200^|^{ "id": 1, "name": "Product_1", "description": "Product Description", "price": 100 }
+get^|^/api/products/{productId}^|^{}^|^{}^|^404^|^{ "description": "Product not found" }

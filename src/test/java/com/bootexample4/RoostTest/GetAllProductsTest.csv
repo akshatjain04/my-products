@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/api/products^|^{}^|^{}^|^200^|^{"id":"integer(format: int64)","name":"string","description":"string","price":"integer(format: int64)"}
