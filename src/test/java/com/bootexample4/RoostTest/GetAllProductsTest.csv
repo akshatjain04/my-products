@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/api/products^|^Content-Type:application/json^|^{}^|^200^|^id:int64,name:string,description:string,price:int64

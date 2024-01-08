@@ -1,0 +1,3 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^/products/{productId}^|^{"Content-Type":"application/json"}^|^{}^|^200^|^{"id":"integer(format: int64)","name":"string","description":"string","price":"integer(format: int64)"}
+PUT^|^/products/{productId}^|^{"Content-Type":"application/json"}^|^{"id":"integer(format: int64)","name":"string","description":"string","price":"integer(format: int64)"}^|^200^|^{"id":"integer(format: int64)","name":"string","description":"string","price":"integer(format: int64)"}
