@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/api/products/{productId}^|^{}^|^{}^|^200^|^{"id": "1", "name": "Product 1", "description": "Description for product 1", "price": "10"}

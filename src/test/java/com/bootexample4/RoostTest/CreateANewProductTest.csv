@@ -1,0 +1,3 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^/products^|^{}^|^{"id": 12345,"name": "Product1","description": "This is Product1","price": 500}^|^200^|^{"id": 12345,"name": "Product1","description": "This is Product1","price": 500,"headers": "No response headers"}
+post^|^/products^|^{}^|^{"id": 12346,"name": "Product2","description": "This is Product2","price": 600}^|^405^|^{"description": "Invalid input","headers": "No response headers"}
