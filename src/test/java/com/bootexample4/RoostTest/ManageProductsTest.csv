@@ -1,0 +1,6 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+get^|^/api/products^|^{}^|^{}^|^200^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)", "headers": "No response headers"}
+post^|^/api/products^|^{}^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)"}^|^200^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)", "headers": "No response headers"}
+get^|^/api/products/{productId}^|^{}^|^{}^|^200^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)", "headers": "No response headers"}
+put^|^/api/products/{productId}^|^{}^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)"}^|^200^|^{"id": "integer(format: int64)", "name": "string", "description": "string", "price": "integer(format: int64)", "headers": "No response headers"}
+delete^|^/api/products/{productId}^|^{}^|^{}^|^200^|^{"description": "Product deleted", "headers": "No response headers"}
