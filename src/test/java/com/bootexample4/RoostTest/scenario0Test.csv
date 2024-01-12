@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+GET^|^http://petstore.swagger.io/v2/pet/findByStatus?status=test^|^{ "Accepts": "application/json" }^|^{}^|^200^|^{ "type": "array", "items": { "[0].id": "integer", "[0].category": { "id": "integer", "name": "string" }, "[0].name": "string", "[0].photoUrls": "array", "[0].photoUrls.0": "string", "[0].tags": "array", "[0].status": "string" } }
