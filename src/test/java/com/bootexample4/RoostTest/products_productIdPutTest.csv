@@ -1,0 +1,11 @@
+productId,id,name,description,price,statusCode
+1,101,Apple,High quality apple,20,200
+2,102,Orange,Juicy sweet orange,15,200
+3,103,Banana,Delicious banana,10,200
+4,104,Mango,Sweet mango,25,200
+5,105,Strawberry,Sweet and sour strawberry,30,200
+6,106,Grapes,Green grapes,15,200
+7,107,Blueberry,Fresh Blueberries,20,200
+8,108,Peach,Fresh and juicy peach,15,200
+9,109,Pineapple,Sweet and tangy pineapple,30,200
+10,110,Pomegranate,Healthy Pomegranate,40,200
