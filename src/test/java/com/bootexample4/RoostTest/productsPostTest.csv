@@ -1,0 +1,11 @@
+id,name,description,price,statusCode
+1,apple,description of the product,20,200
+2,banana,fruit rich in potassium,30,200
+3,orange,vitamin c rich fruit,40,200
+4,strawberry,sweet fruit,50,200
+5,cherry,small stone fruit,60,200
+6,mango,tropical fruit,70,200
+7,blueberry,antioxidant rich fruit,80,200
+8,pineapple,tropical fruit,90,200
+9,kiwi,nutritious green fruit,100,200
+10,pomegranate,antioxidant rich fruit,110,200
