@@ -30,23 +30,15 @@ Solution: Minimize logged information to what is necessary for the intended purp
 // ********RoostGPT********
 package com.bootexample4.RoostTest;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
 import org.hamcrest.MatcherAssert;
 import static org.hamcrest.Matchers.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class productsGetTest {
 
@@ -64,7 +56,7 @@ public class productsGetTest {
     public void productsGet_Test() {
         this.setUp();
         for (Map<String, String> map : envList) {
-          RestAssured.baseURI = map.get("BASE_URL");  
+          RestAssured.baseURI = map.get("BASE_URL"); 
   
                 Response response = given()
                 .when()

@@ -21,57 +21,46 @@ Solution: Implement robust authorization checks to ensure users can only access 
 
 // ********RoostGPT********
 package com.bootexample4.RoostTest;
+
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.List;
-import org.hamcrest.MatcherAssert;
-import static org.hamcrest.Matchers.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class productsProductIdDeleteTest {
 
-    List<Map<String, String>> envList = new ArrayList<>();
+  List<Map<String, String>> envList = new ArrayList<>();
 
+  @Before
+  public void setUp() {
+    TestdataLoader dataloader = new TestdataLoader();
+    envList = dataloader.loadData("src/test/java/com/bootexample4/RoostTest/products_productIdDeleteTest.csv");
+  }
 
-    @Before
-    public void setUp() {
-      TestdataLoader dataloader = new TestdataLoader();
-      envList = dataloader.loadData("src/test/java/com/bootexample4/RoostTest/products_productIdDeleteTest.csv");
+  @Test
+  public void productsProductIdDelete_Test() {
+    this.setUp();
+    for (Map<String, String> map : envList) {
+      RestAssured.baseURI = map.get("BASE_URL");
+
+      Response response = given()
+          .pathParam("productId", map.get("productId") != null ? map.get("productId") : "")
+          .when()
+          .delete("/products/{productId}")
+          .then()
+          .extract().response();
+
+      if (response.statusCode() == 200) {
+        System.out.println("Description: Product deleted");
+      }
+      if (response.statusCode() == 404) {
+        System.out.println("Description: Not Found");
+      }
+
     }
-
-  
-    @Test  
-    public void productsProductIdDelete_Test() {
-        this.setUp();
-        for (Map<String, String> map : envList) {
-          RestAssured.baseURI = map.get("BASE_URL");  
-  
-                Response response = given()
-				.pathParam("productId", map.get("productId") != null ? map.get("productId") : "")
-                .when()
-                .delete("/products/{productId}")  
-                .then() 
-                .extract().response();    
-         
-                if (response.statusCode() == 200) {
-					System.out.println("Description: Product deleted");
-				}
-if (response.statusCode() == 404) {
-					System.out.println("Description: Not Found");
-				}
-  
-            }  
-    }
+  }
 }
