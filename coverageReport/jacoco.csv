@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+products,com.bootexample4.products,ProductsApplication,5,3,0,0,2,1,1,1,1,1
+products,com.bootexample4.products.model,Product,16,15,0,0,6,7,5,4,5,4
+products,com.bootexample4.products.controller,ProductController,79,3,0,0,16,1,8,1,8,1
