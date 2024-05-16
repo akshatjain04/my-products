@@ -1,0 +1,11 @@
+notification^|^date^|^customer^|^subscriberId^|^order^|^id^|^correlationOrder^|^associatedDocument^|^issue^|^type^|^code^|^description^|^lostEquipment^|^resource^|^AdditionalCSVvaluInfo^|^statusCode
+1^|^2021-12-16^|^1^|^234567654^|^1^|^ID1^|^Order1^|^Doc1^|^Issue1^|^Type1^|^-1^|^Description1^|^True^|^Resource1^|^Info1^|^204
+2^|^2021-12-17^|^2^|^987654321^|^2^|^ID2^|^Order2^|^Doc2^|^Issue2^|^Type2^|^0^|^Description2^|^True^|^Resource2^|^Info2^|^400
+3^|^2021-12-18^|^3^|^567898765^|^3^|^ID3^|^Order3^|^Doc3^|^Issue3^|^Type3^|^1^|^Description3^|^False^|^Resource3^|^Info3^|^401
+4^|^2021-12-19^|^4^|^456789123^|^4^|^ID4^|^Order4^|^Doc4^|^Issue4^|^Type4^|^2^|^Description4^|^True^|^Resource4^|^Info4^|^500
+5^|^2021-12-20^|^5^|^345678912^|^5^|^ID5^|^Order5^|^Doc5^|^Issue5^|^Type5^|^3^|^Description5^|^False^|^Resource5^|^Info5^|^503
+6^|^2021-12-21^|^6^|^234567891^|^6^|^ID6^|^Order6^|^Doc6^|^Issue6^|^Type6^|^4^|^Description6^|^True^|^Resource6^|^Info6^|^504
+7^|^2021-12-22^|^7^|^123456789^|^7^|^ID7^|^Order7^|^Doc7^|^Issue7^|^Type7^|^-1^|^Description7^|^False^|^Resource7^|^Info7^|^204
+8^|^2021-12-23^|^8^|^987654321^|^8^|^ID8^|^Order8^|^Doc8^|^Issue8^|^Type8^|^0^|^Description8^|^True^|^Resource8^|^Info8^|^400
+9^|^2021-12-24^|^9^|^876543219^|^9^|^ID9^|^Order9^|^Doc9^|^Issue9^|^Type9^|^1^|^Description9^|^False^|^Resource9^|^Info9^|^401
+10^|^2021-12-25^|^10^|^765432198^|^10^|^ID10^|^Order10^|^Doc10^|^Issue10^|^Type10^|^2^|^Description10^|^True^|^Resource10^|^Info10^|^500

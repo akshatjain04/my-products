@@ -1,0 +1,11 @@
+notification^|^date^|^customer^|^subscriberId^|^order^|^id^|^correlationOrder^|^associatedDocument^|^issue^|^type^|^code^|^description^|^lostEquipment^|^resource^|^AdditionalCSVvaluInfo^|^statusCode
+notif1^|^2021-01-01T00:00:00^|^cust1^|^sub1^|^order1^|^id1^|^corOrder1^|^doc1^|^issue1^|^type1^|^-1^|^desc1^|^False^|^res1^|^addInfo1^|^204
+notif2^|^2021-01-02T10:00:00^|^cust2^|^sub2^|^order2^|^id2^|^corOrder2^|^doc2^|^issue2^|^type2^|^0^|^desc2^|^True^|^res2^|^addInfo2^|^400
+notif3^|^2021-01-03T20:00:00^|^cust3^|^sub3^|^order3^|^id3^|^corOrder3^|^doc3^|^issue3^|^type3^|^1^|^desc3^|^False^|^res3^|^addInfo3^|^401
+notif4^|^2021-01-04T10:10:00^|^cust4^|^sub4^|^order4^|^id4^|^corOrder4^|^doc4^|^issue4^|^type4^|^2^|^desc4^|^True^|^res4^|^addInfo4^|^500
+notif5^|^2021-01-05T20:10:00^|^cust5^|^sub5^|^order5^|^id5^|^corOrder5^|^doc5^|^issue5^|^type5^|^3^|^desc5^|^False^|^res5^|^addInfo5^|^503
+notif6^|^2021-01-06T10:20:00^|^cust6^|^sub6^|^order6^|^id6^|^corOrder6^|^doc6^|^issue6^|^type6^|^4^|^desc6^|^True^|^res6^|^addInfo6^|^504
+notif7^|^2021-01-07T20:20:00^|^cust7^|^sub7^|^order7^|^id7^|^corOrder7^|^doc7^|^issue7^|^type7^|^-1^|^desc7^|^False^|^res7^|^addInfo7^|^204
+notif8^|^2021-01-08T10:30:00^|^cust8^|^sub8^|^order8^|^id8^|^corOrder8^|^doc8^|^issue8^|^type8^|^0^|^desc8^|^True^|^res8^|^addInfo8^|^400
+notif9^|^2021-01-09T20:30:00^|^cust9^|^sub9^|^order9^|^id9^|^corOrder9^|^doc9^|^issue9^|^type9^|^1^|^desc9^|^False^|^res9^|^addInfo9^|^401
+notif10^|^2021-01-10T00:00:00^|^cust10^|^sub10^|^order10^|^id10^|^corOrder10^|^doc10^|^issue10^|^type10^|^2^|^desc10^|^True^|^res10^|^addInfo10^|^500
