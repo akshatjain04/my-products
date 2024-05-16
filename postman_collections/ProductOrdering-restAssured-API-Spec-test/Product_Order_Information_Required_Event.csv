@@ -1,0 +1,12 @@
+date,subscriberId,id,correlationOrder,associatedDocument,code,description,type,observation,updateDate,action,task,fieldActivity,reason,lostEquipment,gponAccess,device,item,statusCode,scenario
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Instalacao",AssociatedType,2021-05-05,"adicionar","Installation Order Type FTTH",INF1,"Network error",Equip1,True,ONT1,ARC201,204,Success 
+
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Installation Order Type FTTP",AssociatedType,2021-05-05,"adicionar","Installation Order Type FTTP",INF2,"Network error",Equip2,False,ONT2,ARC201,400,BadRequest 
+
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Installation Order Type FTTH",AssociatedType,2021-05-05,"adicionar","Installation Order Type FTTH with partial viability",INF3,"Network error",Equip3,False,ONT3,ARC201,401,Unauthorized 
+
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Installation Order Type FTTH",AssociatedType,2021-05-05,"adicionar","Installation Order Type FTTH arising from a address change (flagged address change)",INF4,"Network error",Equip4,True,ONT4,ARC201,500,ServerError
+
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Removal Order Type FTTH",AssociatedType,2021-05-05,"adicionar","Removal Order Type FTTP arising from a address change (flagged address change)",INF5,"Network error",Equip5,False,ONT5,ARC201,503,Unavailable 
+
+2021-06-09,SVTAL001,14393,10,VTT001,616551,"Sandbox V.tal","Total Block Order Type FTTH",AssociatedType,2021-05-05,"adicionar","Unblock Order Type FTTH",INF6,"Network error",Equip6,True,ONT6,ARC201,504,Timeout
