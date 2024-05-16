@@ -1,0 +1,11 @@
+order.Id^|^AdditionalCSVvaluInfo^|^order^|^associatedDocument^|^customer^|^subscriberId^|^statusCode
+ABC123^|^Order Info^|^Order1^|^VTT001^|^Customer1^|^SVTAL001^|^200
+DEF456^|^Detailed Order^|^Order2^|^VTT002^|^Customer2^|^SVTAL002^|^404
+GHI789^|^Additional Order Data^|^Order3^|^VTT003^|^Customer3^|^SVTAL003^|^503
+JKL012^|^More Order Info^|^Order4^|^VTT004^|^Customer4^|^SVTAL004^|^429
+MNO345^|^Extra Order Information^|^Order5^|^VTT005^|^Customer5^|^SVTAL005^|^403
+PQR678^|^Further Order Details^|^Order6^|^VTT006^|^Customer6^|^SVTAL006^|^401
+STU901^|^Order Description^|^Order7^|^VTT007^|^Customer7^|^SVTAL007^|^400
+VWX234^|^Info Regarding Order^|^Order8^|^VTT008^|^Customer8^|^SVTAL008^|^500
+YZA567^|^Order Data^|^Order9^|^VTT009^|^Customer9^|^SVTAL009^|^504
+BCD890^|^Details of Order^|^Order10^|^VTT010^|^Customer10^|^SVTAL010^|^423
