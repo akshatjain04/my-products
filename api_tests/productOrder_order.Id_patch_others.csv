@@ -1,0 +1,11 @@
+orderId^|^correlationOrder^|^associatedDocument^|^hasSlot^|^date^|^mandatoryType^|^workOrderId^|^code^|^observation^|^updateDate^|^action
+20230315000001^|^10^|^VTT001^|^true^|^2021-06-07T12:47:00^|^Permitido^|^WO12345^|^7029^|^Resolução de pendência de agendamento^|^2021-12-09T15:20:00^|^fechar
+20230315000002^|^20^|^VTT002^|^false^|^2021-07-07T04:55:00^|^Obrigatorio^|^WO67890^|^7016^|^Reagendamento por ausência^|^2021-06-09T05:10:00^|^abrir
+20230315000003^|^30^|^VTT003^|^true^|^2021-08-07T08:24:00^|^Permitido^|^WO12213^|^7100^|^Resolução de pendência de contato de obra^|^2021-10-01T20:30:00^|^fechar
+20230315000004^|^40^|^VTT004^|^false^|^2021-11-07T01:47:00^|^Obrigatorio^|^WO90872^|^7075^|^Pendência Cancelamento por Inviabilidade Técnica^|^2021-12-09T15:20:00^|^abrir
+20230315000005^|^50^|^VTT005^|^true^|^2021-02-03T09:35:00^|^Permitido^|^WO45678^|^7037^|^Pendência Impedimento de Atividade por Chuva^|^2021-01-20T13:00:00^|^fechar
+20230315000006^|^60^|^VTT006^|^false^|^2021-12-05T12:49:00^|^Obrigatorio^|^WO24567^|^7081^|^Pendência Cancelamento por Impossibilidade de Execução^|^2021-12-09T15:20:00^|^fechar
+20230315000007^|^70^|^VTT007^|^true^|^2021-06-07T10:10:10^|^Permitido^|^WO56789^|^7014^|^Pendência Rede Interna Cliente^|^2021-02-15T06:30:00^|^abrir
+20230315000008^|^80^|^VTT008^|^false^|^2021-08-07T14:37:00^|^Obrigatorio^|^WO13579^|^7049^|^Pendência Endereço Não Localizado^|^2021-06-26T15:51:00^|^abrir
+20230315000009^|^90^|^VTT009^|^true^|^2021-09-07T11:45:00^|^Permitido^|^WO24680^|^7095^|^Pendência agendamento não cumprido^|^2021-12-09T15:20:00^|^fechar
+20230315000010^|^100^|^VTT010^|^false^|^2021-06-07T12:47:00^|^Obrigatorio^|^WO97531^|^7107^|^Pendência de Rede 3 dias^|^2021-11-29T08:50:00^|^abrir

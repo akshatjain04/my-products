@@ -1,0 +1,11 @@
+date^|^subscriberId^|^id^|^description^|^type^|^code^|^associatedDocument^|^correlationOrder
+2021-12-01T10:30:00^|^SUB123456^|^ORD987654^|^Ordem encerrada com sucesso.^|^Encerramento^|^0^|^DOC789123^|^COR562378
+2021-12-02T11:30:00^|^SUB234561^|^ORD876543^|^O Equipamento já está em uso por outro cliente.^|^Encerramento^|^-1^|^DOC678912^|^COR452396
+2021-12-03T12:30:00^|^SUB345612^|^ORD765432^|^Ordem cancelada.^|^Cancelamento^|^2^|^DOC567891^|^COR356791
+2021-12-04T13:30:00^|^SUB451273^|^ORD654321^|^Início do Processo de Obra.^|^Iniciar^|^3^|^DOC456789^|^COR257147
+2021-12-05T14:30:00^|^SUB512739^|^ORD543210^|^Término do Processo de Obra.^|^Terminar^|^4^|^DOC345678^|^COR215879
+2021-12-06T15:30:00^|^SUB621374^|^ORD432109^|^Enviando Atualização de Ordem.^|^Atualização^|^1^|^DOC234567^|^COR125798
+2021-12-07T16:30:00^|^SUB731425^|^ORD321098^|^Pendência Equipamento Cliente.^|^Pendencia^|^7010^|^DOC123456^|^COR123456
+2021-12-08T17:30:00^|^SUB841526^|^ORD210987^|^Pendência Cancelamento por Inviabilidade Técnica.^|^Pendencia^|^7013^|^DOC654321^|^COR256749
+2021-12-09T18:30:00^|^SUB951627^|^ORD109876^|^Ordem encerrada com sucesso.^|^Encerramento^|^0^|^DOC765432^|^COR368942
+2021-12-10T19:30:00^|^SUB061728^|^ORD098765^|^Pendência de Rede 3 dias.^|^Pendencia^|^7022^|^DOC876543^|^COR481035
