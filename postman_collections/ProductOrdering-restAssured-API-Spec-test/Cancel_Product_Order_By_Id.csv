@@ -1,0 +1,12 @@
+order.Id,associatedDocument,subscriberId,statusCode,scenario
+1001,VTT001,SVTAL001,200,Success
+1002,VTT001,SVTAL001,400,Bad Request
+1003,VTT001,SVTAL001,401,Unauthorized
+1004,VTT001,SVTAL001,403,Forbidden - Scope Not Permitted
+1005,VTT001,SVTAL001,404,Not Found
+1006,VTT001,SVTAL001,406,Not Found
+1007,VTT002,SVTAL001,423,Locked
+1008,VTT003,SVTAL001,429,Too Many Requests - Exceeded Quota
+1009,VTT004,SVTAL001,500,Internal Server Error
+1010,VTT005,SVTAL002,503,Service Unavailable
+1011,VTT006,SVTAL002,504,Gateway Timeout
