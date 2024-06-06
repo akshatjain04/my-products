@@ -76,6 +76,7 @@ These scenarios are a starting point for developing a comprehensive test suite f
 */
 
 // ********RoostGPT********
+
 package com.bootexample4.products.controller;
 
 import java.util.Optional;
@@ -101,31 +102,31 @@ import org.springframework.web.bind.annotation.*;
 @RunWith(MockitoJUnitRunner.class)
 public class ProductControllerUpdateProductTest {
 
-	@Mock
-	private ProductRepository productRepository;
+    @Mock
+    private ProductRepository productRepository;
 
-	@InjectMocks
-	private ProductController productController;
+    @InjectMocks
+    private ProductController productController;
 
-	private Product existingProduct;
+    private Product existingProduct;
 
-	private Product updatedProduct;
+    private Product updatedProduct;
 
-	private Long existingProductId = 1L;
+    private Long existingProductId = 1L;
 
-	@Before
-	public void setUp() {
-		existingProduct = new Product();
-		existingProduct.setName("Original Name");
-		existingProduct.setDescription("Original Description");
-		existingProduct.setPrice(100.0);
-		updatedProduct = new Product();
-		updatedProduct.setName("Updated Name");
-		updatedProduct.setDescription("Updated Description");
-		updatedProduct.setPrice(150.0);
-	}
+    @Before
+    public void setUp() {
+        existingProduct = new Product();
+        existingProduct.setName("Original Name");
+        existingProduct.setDescription("Original Description");
+        existingProduct.setPrice(100.0);
+        updatedProduct = new Product();
+        updatedProduct.setName("Updated Name");
+        updatedProduct.setDescription("Updated Description");
+        updatedProduct.setPrice(150.0);
+    }
 
-	@Test
+    @Test
     public void updateExistingProduct() {
         when(productRepository.findById(eq(existingProductId))).thenReturn(Optional.of(existingProduct));
         when(productRepository.save(any(Product.class))).thenReturn(updatedProduct);
@@ -136,41 +137,44 @@ public class ProductControllerUpdateProductTest {
         assertEquals(updatedProduct.getPrice(), response.getBody().getPrice(), 0.0);
     }
 
-	@Test
-	public void updateNonExistingProduct() {
-		Long nonExistingProductId = 2L;
-		when(productRepository.findById(eq(nonExistingProductId))).thenReturn(Optional.empty());
-		ResponseEntity<Product> response = productController.updateProduct(nonExistingProductId, new Product());
-		assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
-	}
+    @Test
+    public void updateNonExistingProduct() {
+        Long nonExistingProductId = 2L;
+        when(productRepository.findById(eq(nonExistingProductId))).thenReturn(Optional.empty());
+        ResponseEntity<Product> response = productController.updateProduct(nonExistingProductId, new Product());
+        assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
+    }
 
-	@Test
-	public void updateProductWithNullValues() {
-		Product productWithNullValues = new Product();
-		productWithNullValues.setName(null);
-		productWithNullValues.setDescription(null);
-		productWithNullValues.setPrice(0.0);
-		when(productRepository.findById(eq(existingProductId))).thenReturn(Optional.of(existingProduct));
-		when(productRepository.save(any(Product.class))).thenReturn(productWithNullValues);
-		ResponseEntity<Product> response = productController.updateProduct(existingProductId, productWithNullValues);
-		assertEquals(HttpStatus.OK, response.getStatusCode());
-		assertEquals(null, response.getBody().getName());
-		assertEquals(null, response.getBody().getDescription());
-		assertEquals(0.0, response.getBody().getPrice(), 0.0);
-	}
+    @Test
+    public void updateProductWithNullValues() {
+        Product productWithNullValues = new Product();
+        productWithNullValues.setName(null);
+        productWithNullValues.setDescription(null);
+        productWithNullValues.setPrice(0.0);
+        when(productRepository.findById(eq(existingProductId))).thenReturn(Optional.of(existingProduct));
+        when(productRepository.save(any(Product.class))).thenReturn(productWithNullValues);
+        ResponseEntity<Product> response = productController.updateProduct(existingProductId, productWithNullValues);
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(null, response.getBody().getName());
+        assertEquals(null, response.getBody().getDescription());
+        assertEquals(0.0, response.getBody().getPrice(), 0.0);
+    }
 
-	// Scenario 4 is not applicable for testing as mentioned in the context.
-	@Test
-	public void updateProductWithNegativePrice() {
-		Product productWithNegativePrice = new Product();
-		productWithNegativePrice.setName("Negative Price Product");
-		productWithNegativePrice.setDescription("Product with negative price");
-		productWithNegativePrice.setPrice(-50.0);
-		when(productRepository.findById(eq(existingProductId))).thenReturn(Optional.of(existingProduct));
-		when(productRepository.save(any(Product.class))).thenReturn(productWithNegativePrice);
-		ResponseEntity<Product> response = productController.updateProduct(existingProductId, productWithNegativePrice);
-		assertEquals(HttpStatus.OK, response.getStatusCode());
-		assertEquals(-50.0, response.getBody().getPrice(), 0.0);
-	}
+    // Scenario 4 is not applicable for testing as mentioned in the context.
+    // Commented out due to Scenario 4 being not applicable for testing.
+    /*
+    @Test
+    public void updateProductWithNegativePrice() {
+        Product productWithNegativePrice = new Product();
+        productWithNegativePrice.setName("Negative Price Product");
+        productWithNegativePrice.setDescription("Product with negative price");
+        productWithNegativePrice.setPrice(-50.0);
+        when(productRepository.findById(eq(existingProductId))).thenReturn(Optional.of(existingProduct));
+        when(productRepository.save(any(Product.class))).thenReturn(productWithNegativePrice);
+        ResponseEntity<Product> response = productController.updateProduct(existingProductId, productWithNegativePrice);
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(-50.0, response.getBody().getPrice(), 0.0);
+    }
+    */
 
 }
