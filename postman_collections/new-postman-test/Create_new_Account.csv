@@ -1,0 +1,6 @@
+email,statusCode,scenario
+"john.doe@example.com",201,"successful operation"
+"jane.doe@example.com",400,"Bad Request"
+"invalid.email",400,"{\n  \"description\": \"Descriptive Error Message\",\n  \"error\": \"error/code\"\n}"
+"bob.smith@random",201,"successful operation"
+"invalid.email2",400,"{\n  \"description\": \"Descriptive Error Message\",\n  \"error\": \"error/code\"\n}"
