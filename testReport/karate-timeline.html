@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.1:30]","start":1722234987554,"end":1722234987632,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.1:30] 12:06:27.554-12:06:27.632 Create a new account with valid email and optional commit-hash header","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.2:30]","start":1722234987646,"end":1722234987668,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.2:30] 12:06:27.646-12:06:27.668 Create a new account with valid email and optional commit-hash header","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.1:44]","start":1722234987676,"end":1722234987681,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.1:44] 12:06:27.676-12:06:27.681 Create a new account with invalid email pattern","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.2:45]","start":1722234987690,"end":1722234987693,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.2:45] 12:06:27.690-12:06:27.693 Create a new account with invalid email pattern","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.1:58]","start":1722234987703,"end":1722234987707,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.1:58] 12:06:27.703-12:06:27.707 Create a new account without authorization token","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.2:59]","start":1722234987717,"end":1722234987719,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.2:59] 12:06:27.717-12:06:27.719 Create a new account without authorization token","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
