@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[1.1:38]","start":1722242007960,"end":1722242013720,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[1.1:38] 14:03:27.960-14:03:33.720 Login to existing Account with valid email","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[1.2:38]","start":1722242013737,"end":1722242013905,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[1.2:38] 14:03:33.737-14:03:33.905 Login to existing Account with valid email","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[2:40]","start":1722242013913,"end":1722242014279,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[2:40] 14:03:33.913-14:03:34.279 Attempt login with invalid email format","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[3:64]","start":1722242014285,"end":1722242014429,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_patch[3:64] 14:03:34.285-14:03:34.429 Login without email in the request body","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.1:30]","start":1722242016148,"end":1722242016202,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.1:30] 14:03:36.148-14:03:36.202 Create a new account with valid email and optional commit-hash header","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.2:30]","start":1722242016210,"end":1722242016214,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[1.2:30] 14:03:36.210-14:03:36.214 Create a new account with valid email and optional commit-hash header","className":"failed"},{"id":7,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.1:44]","start":1722242016225,"end":1722242016232,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.1:44] 14:03:36.225-14:03:36.232 Create a new account with invalid email pattern","className":"failed"},{"id":8,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.2:45]","start":1722242016242,"end":1722242016246,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[2.2:45] 14:03:36.242-14:03:36.246 Create a new account with invalid email pattern","className":"failed"},{"id":9,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.1:58]","start":1722242016254,"end":1722242016258,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.1:58] 14:03:36.254-14:03:36.258 Create a new account without authorization token","className":"failed"},{"id":10,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.2:59]","start":1722242016267,"end":1722242016272,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/accounts_post[3.2:59] 14:03:36.267-14:03:36.272 Create a new account without authorization token","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
