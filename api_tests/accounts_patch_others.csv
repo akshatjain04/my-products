@@ -1,0 +1,11 @@
+email^|^invalidEmail
+alice@example.com^|^bob@example
+bob@example.com^|^alice@example,com
+charlie@example.com^|^charlie@.example.com
+david@example.com^|^david@example..com
+eve@example.com^|^eve_at_example.com
+frank@example.com^|^frank@example
+grace@example.com^|^grace@example.c
+heidi@example.com^|^heidi@example_com
+ivan@example.com^|^ivan@.com
+judy@example.com^|^judy@example dot com
