@@ -1,0 +1,4 @@
+email,statusCode,scenario
+"user@example.com",201,"successful operation"
+"example@domain.com",400,"Bad Request"
+"user@invalid.com",400,"{\n  \"description\": \"Descriptive Error Message\",\n  \"error\": \"error/code\"\n}"
