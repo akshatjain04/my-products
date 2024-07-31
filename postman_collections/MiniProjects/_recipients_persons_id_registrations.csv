@@ -1,0 +1,4 @@
+credential-url,size,offset,id,statusCode,scenario
+"<string>",100,0,"b7a8aab1-1ed9-87fc-6bd2-5eda4841fcb8",200,successful operation
+"<string>",100,20,"3ee67910-4276-98cd-1dc2-1635f52276b6",400,Bad Request
+"<string>",100,40,"random-uuid-1",401,Authentication Required

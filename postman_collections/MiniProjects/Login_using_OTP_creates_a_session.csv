@@ -1,0 +1,5 @@
+client,email,otp,statusCode,scenario
+"mobile","user@example.com","123456",201,"successful operation"
+"web","user@domain.com","654321",400,"Bad Request"
+"desktop","contact@website.com","234567",201,"successful operation"
+"api","info@service.com","765432",400,"Bad Request"

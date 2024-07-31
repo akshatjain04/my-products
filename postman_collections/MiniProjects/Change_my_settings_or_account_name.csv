@@ -1,0 +1,4 @@
+name,image,officia_a,statusCode,scenario
+".'}' }'{L}{'LL{{ . . '{p'  {{}'-}. }'{. } L- }''- -Lp -p .pL{'}}pL{.{L}L..{{{'}p L-Lp'L}{.pLp{","https://cdn.credentialregiater.com/2571c54e-2cde-4434-83f2-c329f74adc27.png",",200,successful operation
+"Random Name 1","data:image/jpeg;base64,InvalidBase64_1",",400,Bad Request
+"Random Name 2","data:image/jpeg;base64,InvalidBase64_2",",401,Authentication Required

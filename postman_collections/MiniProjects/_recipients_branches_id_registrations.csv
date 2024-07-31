@@ -1,0 +1,5 @@
+credential-url,size,offset,id,statusCode,scenario
+"AhA:/_zF",1234,0,"urn:uuid:5127af43-4556-b037-2cf6-f02e6ce011a4",200,"successful operation"
+"MIte:[^",5678,100,"a5e7bf3d-ff51-15c8-6a5f-d2bef3bb328f",200,"successful operation"
+"RandomCredential1",4321,200,"urn:uuid:00000000-0000-0000-0000-000000000000",400,"Bad Request"
+"RandomCredential2",8765,300,"urn:uuid:11111111-1111-1111-1111-111111111111",401,"Authentication Required"

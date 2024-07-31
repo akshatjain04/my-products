@@ -1,0 +1,4 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+"urn:uuid:b967333a-9d25-8106-7b7a-aef3b7123c32","http://example.com/credential","1946-11-15","Ref19461115","1996-04-17",201,"Successful"
+"urn:uuid:00000000-0000-0000-0000-000000000000","http://invalid.com","0001-01-01","BadRef00010101","0001-01-01",400,"Bad Request"
+"urn:uuid:00000000-0000-0000-0000-000000000000","http://unauthorized.com","0001-01-01","AuthReq00010101","0001-01-01",401,"Authentication Required"

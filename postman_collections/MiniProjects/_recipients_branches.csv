@@ -1,0 +1,10 @@
+coc-number,coc-branch-number,trade-name,size,offset,statusCode,scenario
+"29024412","694765982920","eu Duis dolore","medium","0",200,"successful operation"
+"29024412","694765982920","eu Duis dolore","small","10",200,"successful operation"
+"29024412","694765982920","eu Duis dolore","large","20",200,"successful operation"
+"12345678","87654321","Random Trade Name 1","medium","0",400,"Bad Request"
+"87654321","12345678","Random Trade Name 2","small","10",400,"Bad Request"
+"23456789","98765432","Random Trade Name 3","large","20",400,"Bad Request"
+"11111111","22222222","Random Trade Name 4","medium","0",401,"Authentication Required"
+"22222222","33333333","Random Trade Name 5","small","10",401,"Authentication Required"
+"33333333","44444444","Random Trade Name 6","large","20",401,"Authentication Required"

@@ -1,0 +1,6 @@
+kvkNummer,vestigingsnummer,handelsnaam,statusCode,scenario
+"12345678"^|"000012345678"^|"Handelszaak B.V."^|200^|"successful operation"
+"87654321"^|"000087654321"^|"Onderneming NV"^|200^|"successful operation"
+"23456789"^|"000023456789"^|"Firma & Co."^|200^|"successful operation"
+"98765432"^|"000098765432"^|"Bedrijf Ltd."^|200^|"successful operation"
+"34567890"^|"000034567890"^|"Zaak Corp."^|200^|"successful operation"

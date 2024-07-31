@@ -1,0 +1,4 @@
+id,reference,revoked,suspendedUntil,endDate,statusCode,scenario
+"2eb00843-ec16-d82b-08db-ddc015b77060","<string>",false,"<date>","<date>",200,"successful operation"
+"2eb00843-ec16-d82b-08db-ddc015b77060","<string>",false,"<date>","<date>",400,"Bad Request"
+"2eb00843-ec16-d82b-08db-ddc015b77060","<string>",false,"<date>","<date>",401,"Authentication Required"

@@ -1,0 +1,4 @@
+size,offset,recipient-id,credential-url,statusCode,scenario
+"1024"^|"256"^|"fdb167dd-6a88-a664-b93f-86e981c698e0"^|"https://example.com/credentials/200"^|"200"^|"successful operation"
+"2048"^|"512"^|"urn:uuid:273ce56e-b7ff-980e-df26-a8f830299213"^|"https://example.com/credentials/400"^|"400"^|"Bad Request"
+"4096"^|"1024"^|"random-uuid-1"^|"https://example.com/credentials/401"^|"401"^|"Authentication Required"
