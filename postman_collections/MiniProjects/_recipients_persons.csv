@@ -1,0 +1,4 @@
+birthDate,initials,lastName,firstName,middleName,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+"1981-04-26"^|"JD"^|"Doe"^|"John"^|"A"^|"New York"^|"1234567890"^|"john.doe@example.com"^|"1234AB"^|"12"^|"A"^|"US"^|"ref123456789"^|201^|"successful operation"
+"2023-01-01"^|"XX"^|"Invalid"^|"Invalid"^|"Invalid"^|"InvalidPlace"^|"0000000000"^|"invalid@invalid.com"^|"0000XX"^|"999999"^|"InvalidPostfix"^|"XX"^|"InvalidReference"^|400^|"Bad Request"
+"2023-01-02"^|"YY"^|"Unauthorized"^|"Unauthorized"^|"Unauthorized"^|"UnauthorizedPlace"^|"1111111111"^|"unauthorized@unauthorized.com"^|"1111YY"^|"888888"^|"UnauthorizedPostfix"^|"YY"^|"UnauthorizedReference"^|401^|"Authentication Required"

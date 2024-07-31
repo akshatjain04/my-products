@@ -1,0 +1,4 @@
+email,statusCode,scenario
+"<random_email_1>@example.com",201,"successful operation"
+"<random_email_2>@example.com",400,"Bad Request"
+"<random_email_3>@example.com",401,"Authentication Required"

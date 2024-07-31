@@ -1,0 +1,10 @@
+id,statusCode,scenario
+"123e4567-e89b-12d3-a456-426614174000",200,"successful operation"
+"123e4567-e89b-12d3-a456-426614174001",400,"Bad Request"
+"123e4567-e89b-12d3-a456-426614174002",401,"Authentication Required"
+"123e4567-e89b-12d3-a456-426614174003",200,"successful operation"
+"123e4567-e89b-12d3-a456-426614174004",400,"Bad Request"
+"123e4567-e89b-12d3-a456-426614174005",401,"Authentication Required"
+"123e4567-e89b-12d3-a456-426614174006",200,"successful operation"
+"123e4567-e89b-12d3-a456-426614174007",400,"Bad Request"
+"123e4567-e89b-12d3-a456-426614174008",401,"Authentication Required"

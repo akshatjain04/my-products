@@ -1,0 +1,4 @@
+id,credentialUrl,startDate,reference,endDate,statusCode,scenario
+"urn:uuid:b967333a-9d25-8106-7b7a-aef3b7123c32"^|"http://example.com/credential"^|"1996-04-17"^|"Reference123"^|"1996-04-18"^|201^|"Successful"
+"urn:uuid:123e4567-e89b-12d3-a456-426614174000"^|"http://invalid.com/badurl"^|"2023-01-01"^|"BadReference456"^|"2023-01-02"^|400^|"Bad Request"
+"urn:uuid:acde48001122-eeb2-76e3-111b-a0be16b0d00f"^|"http://unauthorized.com/credential"^|"2023-02-02"^|"AuthRef789"^|"2023-02-03"^|401^|"Authentication Required"
