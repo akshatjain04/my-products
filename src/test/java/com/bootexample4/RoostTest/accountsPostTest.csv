@@ -1,0 +1,11 @@
+commit-hash^|^RequestBody^|^statusCode
+3f4a2b8^|^{ "email": "user01@example.com" }^|^201
+d7e4c5b^|^{ "email": "user02@example.com" }^|^400
+a1b2c3d^|^{ "email": "user03@example.com" }^|^201
+4e5f6g7^|^{ "email": "user04@example.com" }^|^400
+h8i9j0k^|^{ "email": "user05@example.com" }^|^201
+l1m2n3o^|^{ "email": "user06@example.com" }^|^400
+p4q5r6s^|^{ "email": "user07@example.com" }^|^201
+t7u8v9w^|^{ "email": "user08@example.com" }^|^400
+x1y2z3a^|^{ "email": "user09@example.com" }^|^201
+b4c5d6e^|^{ "email": "user10@example.com" }^|^400
