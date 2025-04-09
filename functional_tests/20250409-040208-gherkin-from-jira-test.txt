@@ -1,0 +1,47 @@
+Functional Test Cases:
+
+1. Test Case: Check if the parser successfully copies and pastes business logic from RoostGPT in modular fashion.
+    Input: Existing logic in Roost GPT
+    Expected Output: Logic successfully moved and restructured in modular method in new parser.
+
+2. Test Case: Gather required information into one structure
+    Input: Various pieces of information from different sources
+    Expected Output: All relevant information gathered in one structure.
+
+3. Test Case: Check if the gathered information is successfully embedded into existing structure
+    Input: The structure with all the gathered information
+    Expected Output: The information is successfully embedded into the pre-existing structure.
+
+4. Test Case: Validate if AST parsed data are structured in group fashion
+    Input: AST parsed data
+    Expected Output: Grouped structure of AST parsed data
+
+5. Test Case: Check the successful execution of the {{parseGoDirectory}} function 
+   Input: A directory with Go code
+   Expected Output: Error and Parses data object.
+
+6. Test Case: Verify if Go unit tests are generated successfully and passed on AI prompts, after setting the environment variable DEVELOPER_MODE to true.
+   Input: {{DEVELOPER_MODE=true}}
+   Expected Output: Go unit tests are generated and passed on AI prompts.
+
+Non-Functional Test Cases:
+
+1. Test Case: Check if the parser is modular and maintainable.
+   Input: N/A
+   Expected Output: The parser's code should be well-structured and easy to navigate.
+
+2. Test case: Validate if the Parser Performance is enhanced after the change in the new branch
+   Input: AST, data to parse
+   Expected Output: Time taken for various parser operations should be reasonable and should not exceed previous benchmarks by a significant margin.
+
+3. Test Case: Check if the parser handles large-sized repositories within an acceptable time frame
+   Input: Large-sized repository
+   Expected Output: The parser should return the result within acceptable time, there should not be any system crashes or out-of-memory errors.
+
+4. Test Case: Ensure thread-safety for parser when multiple instances are initiated concurrently
+   Input: Simultaneous initiation of multiple instances
+   Expected Output: All instances should run smoothly without any interference
+
+Edge Case:
+
+Test if the analyser package handles cases where the file does not contain any struct or only contains non-related statements.
