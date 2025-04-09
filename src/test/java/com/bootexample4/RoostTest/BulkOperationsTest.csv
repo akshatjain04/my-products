@@ -1,0 +1,5 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+POST^|^https://petstore.swagger.io/v2/user/createWithList^|^write:pets, read:pets^|^{"username": "bulkuser1","email": "bulk1@test.com","firstName": "Bulk","lastName": "User1"}^|^200^|^{"message":"successful operation","type":"undefined"}
+POST^|^https://petstore.swagger.io/v2/user/createWithList^|^write:pets, read:pets^|^{"username": "bulkuser2","email": "bulk2@test.com","firstName": "Bulk","lastName": "User2"}^|^200^|^{"message":"successful operation","type":"undefined"}
+POST^|^https://petstore.swagger.io/v2/pet^|^write:pets, read:pets^|^{"name": "Max","category": "Dog","status": "available"}^|^200^|^{"message":"Invalid input","type":"undefined"}
+POST^|^https://petstore.swagger.io/v2/pet^|^write:pets, read:pets^|^{"name": "Charlie","category": "Dog","status": "available"}^|^200^|^{"message":"Invalid input","type":"undefined"}
