@@ -1,0 +1,7 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^https://petstore.swagger.io/v2/pet^|^{ "Content-Type": "application/json" }^|^{ "id": , "name": , "status":  }^|^405^|^{ "description": "Invalid input" }
+get^|^https://petstore.swagger.io/v2/pet/{petId}^|^{ "Content-Type": "application/json" }^|^{}^|^404^|^{ "description": "Pet not found" }
+get^|^https://petstore.swagger.io/v2/store/order/{orderId}^|^{ "Content-Type": "application/json" }^|^{}^|^400^|^{ "description": "Invalid ID supplied" }
+get^|^https://petstore.swagger.io/v2/store/order/{orderId}^|^{ "Content-Type": "application/json" }^|^{}^|^400^|^{ "description": "Invalid ID supplied" }
+post^|^https://petstore.swagger.io/v2/user^|^{ "Content-Type": "application/json" }^|^{ "id": , "username": , "firstName": , "lastName": , "email": , "password": , "phone": , "userStatus":  }^|^400^|^{}
+post^|^https://petstore.swagger.io/v2/user/login^|^{ "Content-Type": "application/json" }^|^{}^|^400^|^{}
