@@ -1,0 +1,4 @@
+id,username,firstName,lastName,email,password,phone,userStatus,1.id,1.username,1.firstName,1.lastName,1.email,1.password,1.phone,1.userStatus,statusCode,scenario
+12345,"user1","John","Doe","johndoe@example.com","password1","1234567890",1,67890,"user2","Jane","Doe","janedoe@example.com","password2","0987654321",0,500,"successful operation"
+67890,"user3","Jim","Beam","jimbeam@example.com","password3","2345678901",0,12345,"user4","Jack","Daniels","jackdaniels@example.com","password4","5678901234",1,500,"successful operation"
+23456,"user5","Johnny","Walker","johnnywalker@example.com","password5","3456789012",1,56789,"user6","James","Bond","jamesbond@example.com","password6","7890123456",0,500,"successful operation"

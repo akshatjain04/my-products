@@ -1,0 +1,13 @@
+petId,statusCode,scenario
+123,200,successful operation
+358,400,Invalid ID supplied
+570,404,Pet not found
+720,200,successful operation
+402,400,Invalid ID supplied
+874,404,Pet not found
+101,200,successful operation
+278,400,Invalid ID supplied
+509,404,Pet not found
+305,200,successful operation
+811,400,Invalid ID supplied
+392,404,Pet not found

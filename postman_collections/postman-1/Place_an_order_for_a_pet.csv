@@ -1,0 +1,6 @@
+id,petId,quantity,shipDate,status,complete,statusCode,scenario
+1234,4567,10,2022-03-23T00:00:00,"available",true,200,successful operation
+5678,1234,5,2022-03-25T00:00:00,"pending",false,200,successful operation
+2345,7890,15,2022-03-27T00:00:00,"sold",true,400,Invalid Order
+7890,2345,8,2022-03-28T00:00:00,"available",false,400,Invalid Order
+3456,5678,12,2022-03-30T00:00:00,"pending",true,200,successful operation
