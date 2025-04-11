@@ -1,0 +1,7 @@
+username,id,firstName,lastName,email,password,phone,userStatus,statusCode,scenario
+johndoe,1234,John,Doe,john_doe@mail.com,passwordJohn,1234567890,1,400,Invalid user supplied
+nodata,NaN,N/A,N/A,invalid@email.com,incorrectPwd,0987654321,0,404,User not found
+apiuser,4567,API,User,api_user@email.com,passwordAPI,2345678901,1,400,Invalid user supplied
+usererror,NaN,Error,User,user_error@email.com,errorPwd,3456789012,0,404,User not found
+testuser,7890,Test,User,test_user@mail.com,passwordTest,4567890123,1,400,Invalid user supplied
+missinguser,NaN,Missing,User,missing_user@mail.com,missingPwd,5678901234,0,404,User not found

@@ -1,0 +1,6 @@
+petId,additionalMetadata,statusCode,scenario
+123456,"{\"code\": 20365932,\"type\": \"culpa aute esse\",\"message\": \"consequat qui\"}",200,successful operation
+234567,"{\"code\": 20365932,\"type\": \"culpa aute esse\",\"message\": \"consequat qui\"}",200,successful operation
+345678,"{\"code\": 20365932,\"type\": \"culpa aute esse\",\"message\": \"consequat qui\"}",200,successful operation
+456789,"{\"code\": 20365932,\"type\": \"culpa aute esse\",\"message\": \"consequat qui\"}",200,successful operation
+567890,"{\"code\": 20365932,\"type\": \"culpa aute esse\",\"message\": \"consequat qui\"}",200,successful operation

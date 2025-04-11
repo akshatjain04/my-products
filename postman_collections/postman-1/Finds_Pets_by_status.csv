@@ -1,0 +1,9 @@
+status,statusCode,scenario
+"available",200,"successful operation"
+"pending",400,"Invalid status value"
+"sold",200,"successful operation"
+"randomStatus1",400,"Invalid status value"
+"randomStatus2",400,"Invalid status value"
+"available",200,"successful operation"
+"unavailable",400,"Invalid status value"
+"randomStatus3",400,"Invalid status value"

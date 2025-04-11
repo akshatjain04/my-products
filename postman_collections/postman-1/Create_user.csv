@@ -1,0 +1,6 @@
+id,username,firstName,lastName,email,password,phone,userStatus,statusCode,scenario
+1,"john_doe","John","Doe","johndoe@example.com","johndoe123","1234567890",1,500,successful operation
+2,"jane_doe","Jane","Doe","janedoe@example.com","janedoe123","0987654321",2,500,successful operation
+3,"alex_smith","Alex","Smith","alexsmith@example.com","alexsmith123","9876543210",3,500,successful operation
+4,"lisa_johnson","Lisa","Johnson","lisajohnson@example.com","lisajohnson123","8765432109",4,500,successful operation
+5,"michael_green","Michael","Green","michaelgreen@example.com","michaelgreen123","7654321098",5,500,successful operation

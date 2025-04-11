@@ -1,0 +1,9 @@
+username,password,statusCode,scenario
+"admin","admin123",200,"successful operation"
+"user1","qwerty",400,"Invalid username/password supplied"
+"guest","guest123",200,"successful operation"
+"johndoe","doejohn",400,"Invalid username/password supplied"
+"mark","mark2021",200,"successful operation"
+"steve","stevepass",400,"Invalid username/password supplied"
+"mike","mike2022",200,"successful operation"
+"sam","sampass",400,"Invalid username/password supplied"
