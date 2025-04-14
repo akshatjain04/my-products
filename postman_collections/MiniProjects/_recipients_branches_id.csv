@@ -1,0 +1,4 @@
+id,tradeName,phone,email,statusCode,scenario
+"fcc9d60e-4b24-0a2d-9325-6fbebcc02a0e","<string>","<string>","<email>",200,"successful operation"
+"123e4567-e89b-12d3-a456-426614174000","InvalidTradeName","0123456789","invalid.email@",400,"Bad Request"
+"123e4567-e89b-12d3-a456-426614174001","AnotherInvalidName","9876543210","another.invalid.email@",401,"Authentication Required"

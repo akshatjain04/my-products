@@ -1,0 +1,10 @@
+id,initials,firstName,middleName,lastName,birthDate,birthPlace,phone,email,postalCode,houseNumber,houseNumberPostfix,countryCode,reference,statusCode,scenario
+"urn:uuid:f5dcc859-fe21-eba0-aed5-58db72aa24ce","JD","John","A","Doe","1981-04-26","Springfield","1234567890","john.doe@example.com","1234AB","12","A","US","Ref12345",200,"successful operation"
+"urn:uuid:0a2f47a2-8f2e-4f91-88bc-c6f8ad65a9db","MX","Max","B","Mustermann","1979-11-12","Berlin","9876543210","max.mustermann@example.de","10997","30","B","DE","Ref54321",200,"successful operation"
+"urn:uuid:9b2c5bb1-4e2c-4d09-a9d6-7e1b9e5c3d8f","ER","Erika","C","Musterfrau","1985-07-20","Wien","2345678901","erika.musterfrau@example.at","1010","2","","AT","Ref67890",200,"successful operation"
+"urn:uuid:acbd18db-4cc2-f85c-edef-654fccc4a4d8","ZZ","Zoe","Q","Zet","1979-11-12","InvalidPlace123","0000000000","invalid.email@example.com","0000XX","999999","X1Z","XX","InvalidRef123",400,"Bad Request"
+"urn:uuid:37d67a63-5248-4d96-a48a-8a7ecb1f8f33","YY","Yann","R","Yorke","1985-07-20","AnotherInvalidPlace456","1111111111","yann.yorke@invalid.com","1111YY","888888","Y2K","YY","InvalidRef456",400,"Bad Request"
+"urn:uuid:c9a646d3-9c61-4cb7-bfcd-ee2522c8f633","WW","Wade","S","Wilson","1990-12-31","YetAnotherInvalidPlace789","2222222222","wade.wilson@invalid.com","2222WW","777777","W3L","WW","InvalidRef789",400,"Bad Request"
+"urn:uuid:e9d1d1d4-4864-4f88-af52-e0f957a7f4fa","VV","Violet","T","Valentine","1979-11-12","InvalidPlaceABC","3333333333","violet.valentine@invalid.com","3333VV","666666","V4T","VV","InvalidRefABC",401,"Authentication Required"
+"urn:uuid:fe33a1e5-c9a5-4388-8d6e-8a1f662df552","UU","Ulysses","U","Universe","1985-07-20","InvalidPlaceDEF","4444444444","ulysses.universe@invalid.com","4444UU","555555","U5E","UU","InvalidRefDEF",401,"Authentication Required"
+"urn:uuid:0d19d1dd-5e3c-4c9a-ba64-47f23daf6e2d","TT","Tara","V","Thompson","1990-12-31","InvalidPlaceGHI","5555555555","tara.thompson@invalid.com","5555TT","444444","T6H","TT","InvalidRefGHI",401,"Authentication Required"
