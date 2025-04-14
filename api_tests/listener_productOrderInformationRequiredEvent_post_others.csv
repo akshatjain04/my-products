@@ -1,0 +1,11 @@
+date^|^subscriberId^|^id^|^correlationOrder^|^associatedDocument^|^code^|^description^|^type^|^observation^|^updateDate^|^action^|^task^|^fieldActivity^|^reason
+2022-04-24T17:19:50-03:00^|^123456^|^20230315000001^|^10^|^Doc_001^|^7030^|^Pendencia de agendamento^|^TECNICA^|^No issues found^|^2022-04-24T17:19:50-03:00^|^abrir^|^Task_1^|^True^|^MANUNTENÇÃO
+2022-04-24T10:15:20-03:00^|^654321^|^20230315000002^|^11^|^Doc_002^|^7029^|^Pendencia de agendamento^|^CLIENTE^|^Issue_1^|^2022-04-24T10:15:20-03:00^|^fechar^|^Task_2^|^False^|^MANUNTENÇÃO
+2022-04-24T14:25:40-03:00^|^789456^|^20230315000003^|^12^|^Doc_003^|^7002^|^Pendencia de agendamento^|^TECNICA^|^Issue_2^|^2022-04-24T14:25:40-03:00^|^redirecionar^|^Task_3^|^True^|^MANUNTENÇÃO
+2022-04-24T16:30:55-03:00^|^321654^|^20230315000004^|^13^|^Doc_004^|^7008^|^Pendencia de agendamento^|^CLIENTE^|^Issue_3^|^2022-04-24T16:30:55-03:00^|^abrir^|^Task_4^|^False^|^MANUNTENÇÃO
+2022-04-24T15:50:40-03:00^|^741852^|^20230315000005^|^14^|^Doc_005^|^7001^|^Pendencia de agendamento^|^TECNICA^|^No issues found^|^2022-04-24T15:50:40-03:00^|^fechar^|^Task_5^|^True^|^MANUNTENÇÃO
+2022-04-24T13:25:30-03:00^|^963852^|^20230315000006^|^15^|^Doc_006^|^7030^|^Pendencia de agendamento^|^CLIENTE^|^Issue_4^|^2022-04-24T13:25:30-03:00^|^redirecionar^|^Task_6^|^False^|^MANUNTENÇÃO
+2022-04-24T18:20:10-03:00^|^852741^|^20230315000007^|^16^|^Doc_007^|^7006^|^Pendencia de agendamento^|^TECNICA^|^Issue_5^|^2022-04-24T18:20:10-03:00^|^abrir^|^Task_7^|^True^|^MANUNTENÇÃO
+2022-04-24T09:30:35-03:00^|^147258^|^20230315000008^|^17^|^Doc_008^|^7022^|^Pendencia de agendamento^|^CLIENTE^|^No issues found^|^2022-04-24T09:30:35-03:00^|^fechar^|^Task_8^|^False^|^MANUNTENÇÃO
+2022-04-24T12:15:25-03:00^|^369852^|^20230315000009^|^18^|^Doc_009^|^7007^|^Pendencia de agendamento^|^TECNICA^|^Issue_6^|^2022-04-24T12:15:25-03:00^|^redirecionar^|^Task_9^|^True^|^MANUNTENÇÃO
+2022-04-24T11:40:50-03:00^|^258741^|^20230315000010^|^19^|^Doc_010^|^7036^|^Pendencia de agendamento^|^CLIENTE^|^Issue_7^|^2022-04-24T11:40:50-03:00^|^abrir^|^Task_10^|^False^|^MANUNTENÇÃO
