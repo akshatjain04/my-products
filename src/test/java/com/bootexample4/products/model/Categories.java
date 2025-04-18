@@ -22,4 +22,8 @@ public interface Categories {
 
 	}
 
+	interface getDescription {
+
+	}
+
 }
