@@ -1,0 +1,19 @@
+subscriberId,id,complements,statusCode,scenario
+SVTL001,14393,'{"type": "ES", "value": "ARC201"}',200,successful operation
+SVTL001,19124,'{"type": "DI", "value": "GHE562"}',400,Bad Request
+SVTL001,38294,'{"type": "WE", "value": "HRD253"}',401,Unauthorized
+SVTL001,22390,'{"type": "GF", "value": "RWG402"}',403,Forbidden - Scope Not Permitted
+SVTL001,99419,'{"type": "GU", "value": "SDK103"}',404,Not Found
+SVTL001,34293,'{"type": "HT", "value": "BMK201"}',429,Too Many Requests - Exceeded Quota
+SVTL001,84532,'{"type": "JK", "value": "DFS398"}',500,Internal Server Error
+SVTL001,69823,'{"type": "NZ", "value": "PLR105"}',503,Service Unavailable
+SVTL001,39030,'{"type": "RQ", "value": "GLX692"}',504,Gateway Timeout
+SVTL001,2449,',200,successful operation
+SVTL001,10472,',400,Bad Request
+SVTL001,03984,',401,Unauthorized
+SVTL001,89823,',403,Forbidden - Scope Not Permitted
+SVTL001,30092,',404,Not Found
+SVTL001,01423,',429,Too Many Requests - Exceeded Quota
+SVTL001,75930,',500,Internal Server Error
+SVTL001,20348,',503,Service Unavailable
+SVTL001,12804,',504,Gateway Timeout
