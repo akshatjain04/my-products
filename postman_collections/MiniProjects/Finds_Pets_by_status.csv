@@ -1,0 +1,11 @@
+status,statusCode,scenario
+"Available",200,"Successful operation"
+"Available",400,"Invalid status value"
+"Pending",200,"Successful operation"
+"Pending",400,"Invalid status value"
+"Sold",200,"Successful operation"
+"Sold",400,"Invalid status value"
+"Free",400,"Invalid status value"
+"On hold",400,"Invalid status value"
+"Discontinued",400,"Invalid status value"
+"Not available",400,"Invalid status value"
