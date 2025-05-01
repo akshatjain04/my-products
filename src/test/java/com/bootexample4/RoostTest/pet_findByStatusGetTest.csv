@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userName": "user1", "password": "pass1"}^|^200
+{"userName": "user2", "password": "pass2"}^|^200
+{"userName": "user3", "password": "pass3"}^|^400
+{"userName": "user4", "password": "pass4"}^|^200
+{"userName": "user5", "password": "pass5"}^|^400
+{"userName": "user6", "password": "pass6"}^|^200
+{"userName": "user7", "password": "pass7"}^|^400
+{"userName": "user8", "password": "pass8"}^|^200
+{"userName": "user9", "password": "pass9"}^|^400
+{"userName": "user10", "password": "pass10"}^|^200
