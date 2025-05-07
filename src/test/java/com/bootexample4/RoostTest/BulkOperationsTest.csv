@@ -1,0 +1,5 @@
+  
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY  
+POST^|^https://petstore.swagger.io/v2/user/createWithArray^|^"content-type: application/json"^|^[{username:'bulkuser1',email: 'bulk1@test.com', firstName: 'Bulk', lastName: 'User1'},{username:'bulkuser2', email:'bulk2@test.com', firstName: 'Bulk', lastName: 'User2'}]^|^200^|^OK  
+POST^|^https://petstore.swagger.io/v2/pet^|^"content-type: application/json"^|^{name: 'Max', category: 'Dog', status: 'available'}^|^200^|^OK  
+POST^|^https://petstore.swagger.io/v2/pet^|^"content-type: application/json"^|^{name: 'Charlie', category: 'Dog', status: 'available'}^|^200^|^OK  

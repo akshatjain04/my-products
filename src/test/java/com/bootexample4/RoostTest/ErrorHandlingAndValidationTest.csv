@@ -1,0 +1,7 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^https://petstore.swagger.io/v2/pet^|^oauth2^|^{"id": "", "name": "", "photoUrls": [""], "tags": [{"id": "", "name": ""}], "status": ""}^|^405^|^{"description": "Invalid input", "headers": "No response headers"}
+get^|^https://petstore.swagger.io/v2/pet/{petId}^|^api_key^|^{}^|^404^|^{"description": "Pet not found", "headers": "No response headers"}
+post^|^https://petstore.swagger.io/v2/store/order^|^{}^|^{"id": "", "petId": "", "quantity": "", "shipDate": "", "status": "", "complete": ""}^|^400^|^{"description": "Invalid Order", "headers": "No response headers"}
+get^|^https://petstore.swagger.io/v2/store/order/{orderId}^|^{}^|^{}^|^400^|^{"description": "Invalid ID supplied", "headers": "No response headers"}
+post^|^https://petstore.swagger.io/v2/user^|^{}^|^{"id": "", "username": "", "firstName": "", "lastName": "", "email": "", "password": "", "phone": "", "userStatus": ""}^|^default^|^{"description": "successful operation", "headers": "No response headers"}
+get^|^https://petstore.swagger.io/v2/user/{username}^|^{}^|^{}^|^400^|^{"description": "Invalid username supplied", "headers": "No response headers"}    

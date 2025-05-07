@@ -1,0 +1,17 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+post^|^https://petstore.swagger.io/v2/user^|^{}^|^{"username":"testuser1","email":"test@email.com","firstName":"Test","lastName":"User","password":"pass123","phone":"1234567890"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/user/testuser1^|^{}^|^{}^|^200^|^{"id":1,"username":"testuser1","firstName":"Test","lastName":"User","email":"test@email.com","password":"pass123","phone":"1234567890","userStatus":1}
+post^|^https://petstore.swagger.io/v2/user/login^|^{}^|^{}^|^200^|^{}
+post^|^https://petstore.swagger.io/v2/pet^|^{}^|^{"name":"Fluffy","category":"Cat","status":"available"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/pet/{id}^|^{}^|^{}^|^200^|^{}
+post^|^https://petstore.swagger.io/v2/pet/{petId}/uploadImage^|^{}^|^{"additionalMetadata":"Additional data","file":"image.jpg"}^|^200^|^{}
+post^|^https://petstore.swagger.io/v2/pet/{petId}^|^{}^|^{"name":"Fluffy","status":"pending"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/pet/findByStatus^|^{}^|^{"status":"pending"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/pet/findByTags^|^{}^|^{"tags":"friendly"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/store/inventory^|^{}^|^{}^|^200^|^{}
+post^|^https://petstore.swagger.io/v2/store/order^|^{}^|^{"quantity":1,"shipDate":"tomorrow","status":"placed"}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/store/order/{orderId}^|^{}^|^{}^|^200^|^{}
+delete^|^https://petstore.swagger.io/v2/store/order/{orderId}^|^{}^|^{}^|^200^|^{}
+delete^|^https://petstore.swagger.io/v2/pet/{petId}^|^{}^|^{}^|^200^|^{}
+delete^|^https://petstore.swagger.io/v2/user/testuser1^|^{}^|^{}^|^200^|^{}
+get^|^https://petstore.swagger.io/v2/user/logout^|^{}^|^{}^|^200^|^{}
