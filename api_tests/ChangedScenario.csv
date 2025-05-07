@@ -1,0 +1,11 @@
+petId^|^orderId^|^username^|^statusCode^|^scenario
+101^|^5001^|^johnsmith^|^200^|^Login
+102^|^5002^|^amandajames^|^404^|^ProductSearch
+103^|^5003^|^markivens^|^200^|^AccountCreation
+104^|^5004^|^lucytear^|^500^|^PaymentProcessing
+105^|^5005^|^andrewsmith^|^403^|^APIAccess
+106^|^5006^|^charlieduke^|^200^|^ProfileImageUpload
+107^|^5007^|^babyleuk^|^401^|^TokenRefresh
+108^|^5008^|^juliamortin^|^429^|^RateLimitExceeded
+109^|^5009^|^garyphoenix^|^200^|^OrderConfirmation
+110^|^5010^|^tonymeans^|^400^|^FormDataSubmission
