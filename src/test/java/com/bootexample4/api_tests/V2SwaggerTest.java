@@ -13,7 +13,7 @@
   
         @Test
         void testAll() {
-            String swagger_184f1d2b61_url = System.getenv().getOrDefault("SWAGGER_184F1D2B61_URL", "http://127.0.0.1:4018");
+            String swagger_184f1d2b61_url = System.getenv().getOrDefault("SWAGGER_184F1D2B61_URL", "http://127.0.0.1:4020");
 String swagger_184f1d2b61_auth_token = System.getenv().getOrDefault("SWAGGER_184F1D2B61_AUTH_TOKEN", "dummy_SWAGGER_184F1D2B61_AUTH_TOKEN");
             Results results = Runner.path("src/test/java/com/bootexample4/api_tests/V2Swagger")
                     .systemProperty("SWAGGER_184F1D2B61_URL",swagger_184f1d2b61_url)
