@@ -1,10 +1,10 @@
 subscriberId,id,complements,statusCode,scenario
-SUB3455,ID123,"{\"control\": {\"type\": \"S\",\"code\": 200,\"message\": \"OK\"},\"resource\": {\"inventoryId\": 1766156,\"maxBandwidth\": 1000,\"availabilityType\": 1,\"availabilityCode\": 0,\"availabilityDescription\": \"Viável - Viabilidade técnica confirmada\",\"products\": {\"product\": [{\"type\": \"Banda Larga\",\"catalogId\": \"BL_100MB\",\"name\": \"VELOC_100MBPS\",\"technology\": \"\"},{\"type\": \"Banda Larga\",\"catalogId\": \"BL_200MB\",\"name\": \"VELOC_200MBPS\",\"technology\": \"\"},{\"type\": \"Banda Larga\",\"catalogId\": \"BL_400MB\",\"name\": \"VELOC_400MBPS\",\"technology\": \"\"},{\"type\": \"Banda Larga\",\"catalogId\": \"BL_500MB\",\"name\": \"VELOC_500MBPS\",\"technology\": \"\"},{\"type\": \"Banda Larga\",\"catalogId\": \"BL_1000MB\"}",200,"successful operation"
-SUB8762,ID234,"{\"control\": {\"type\": \"E\",\"code\": 400,\"message\": \"OSB Validate action failed validation\"}}",400,"Bad Request"
-SUB5623,ID345,"{\"control\": {\"type\": \"E\",\"code\": 401,\"message\": \"Unauthorized\"}}",401,"Unauthorized"
-SUB9842,ID456,"{\"control\": {\"type\": \"E\",\"code\": 403,\"message\": \"Forbidden - Scope Not Permitted\"}}",403,"Forbidden - Scope Not Permitted"
-SUB3764,ID567,"{\"control\": {\"type\": \"E\",\"code\": 404,\"message\": \"Not Found\"}}",404,"Not Found"
-SUB2738,ID678,"{\"control\": {\"type\": \"E\",\"code\": 429,\"message\": \"Too Many Requests - Exceeded Quota\"}}",429,"Too Many Requests - Exceeded Quota"
-SUB7935,ID789,"{\"control\": {\"type\": \"T\",\"code\": 500,\"message\": \"Internal Server Error\"}}",500,"Internal Server Error"
-SUB6281,ID890,"{\"control\": {\"type\": \"T\",\"code\": 503,\"message\": \"Service Unavailable\"}}",503,"Service Unavailable"
-SUB4938,ID901,"{\"control\": {\"type\": \"T\",\"code\": 504,\"message\": \"Gateway Timeout\"}}",504,"Gateway Timeout"
+12345,101,"{"control": {"type": "E","code": 400,"message": "OSB Validate action failed validation"}}",200,successful operation
+67890,102,"{"control": {"type": "E1","code": 305,"message": "Unexpected error"}}",400,Bad Request
+11121,103,"{"control": {"type": "E","code": 401,"message": "Unauthorized"}}",401,Unauthorized
+31323,104,"{"control": {"type": "E","code": 402,"message": "Access denied"}}",403,Forbidden - Scope Not Permitted
+41434,105,"{"control": {"type": "E","code": 404,"message": "Not Found"}}",404,Not Found
+51515,106,"{"control": {"type": "E","code": 410,"message": "Resource gone"}}",429,Too Many Requests - Exceeded Quota
+61616,107,"{"control": {"type": "T","code": 500,"message": "Internal Server Error"}}",500,Internal Server Error
+71717,108,"{"control": {"type": "T","code": 503,"message": "Service Unavailable"}}",503,Service Unavailable
+81818,109,"{"control": {"type": "T","code": 504,"message": "Gateway Timeout"}}",504,Gateway Timeout
