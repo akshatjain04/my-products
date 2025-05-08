@@ -1,13 +1,13 @@
 {
   "item": [
     {
-      "id": "056b693e-b1a8-4e17-98ba-80e6e1c38f32",
+      "id": "a34f9d25-54de-4231-9d5c-0c3a3c9e88f3",
       "name": "pet",
       "item": [
         null,
         null,
         {
-          "id": "f0312f5c-57c1-400a-9020-842f32ac7695",
+          "id": "b634e468-6ad5-4016-b901-23ca13a286b6",
           "name": "{petId}",
           "item": [
             null,
@@ -17,23 +17,199 @@
           ],
           "event": []
         },
-        null,
+        {
+          "id": "eeea6178-2fd1-4508-b695-2a566659241d",
+          "name": "Finds Pets by status",
+          "request": {
+            "name": "Finds Pets by status",
+            "description": {
+              "content": "Multiple status values can be provided with comma separated strings",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "pet",
+                "findByStatus"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "status",
+                  "value": "{{status}}",
+                  "description": "(Required) Status values that need to be considered for filter"
+                },
+                {
+                  "disabled": false,
+                  "key": "status",
+                  "value": "{{status}}",
+                  "description": "(Required) Status values that need to be considered for filter"
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": {
+              "type": "oauth2",
+              "oauth2": [
+                {
+                  "key": "scope",
+                  "value": "read:pets write:pets"
+                },
+                {
+                  "key": "authUrl",
+                  "value": "https://petstore.swagger.io/oauth/authorize"
+                },
+                {
+                  "key": "grant_type",
+                  "value": "implicit"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "id": "46f5b7d0-f48f-494f-84c7-48bdc3990f45",
+              "name": "successful operation",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "pet",
+                    "findByStatus"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "status",
+                      "value": "{{status}}"
+                    },
+                    {
+                      "key": "status",
+                      "value": "{{status}}"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "{{Authorization}}"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "[\n  {\n    \"name\": \"doggie\",\n    \"photoUrls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"id\": \"<long>\",\n    \"category\": {\n      \"id\": \"<long>\",\n      \"name\": \"<string>\"\n    },\n    \"tags\": [\n      {\n        \"id\": \"<long>\",\n        \"name\": \"<string>\"\n      },\n      {\n        \"id\": \"<long>\",\n        \"name\": \"<string>\"\n      }\n    ],\n    \"status\": \"<string>\"\n  },\n  {\n    \"name\": \"doggie\",\n    \"photoUrls\": [\n      \"<string>\",\n      \"<string>\"\n    ],\n    \"id\": \"<long>\",\n    \"category\": {\n      \"id\": \"<long>\",\n      \"name\": \"<string>\"\n    },\n    \"tags\": [\n      {\n        \"id\": \"<long>\",\n        \"name\": \"<string>\"\n      },\n      {\n        \"id\": \"<long>\",\n        \"name\": \"<string>\"\n      }\n    ],\n    \"status\": \"<string>\"\n  }\n]",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            },
+            {
+              "id": "48009c7d-a2fd-4a70-b110-09d46c797664",
+              "name": "Invalid status value",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "pet",
+                    "findByStatus"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [
+                    {
+                      "key": "status",
+                      "value": "{{status}}"
+                    },
+                    {
+                      "key": "status",
+                      "value": "{{status}}"
+                    }
+                  ],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: oauth2",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "{{Authorization}}"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for pet/findByStatus?status={{status}}&status={{status}} for http method type get in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Invalid status value\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n      });\n\n    }\n"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
         null
       ],
       "event": []
     },
     {
-      "id": "6f5baa46-3a9c-469f-8b29-73638e3729a3",
+      "id": "eb8ba369-02c9-4647-a850-2b48f5f2fd1a",
       "name": "store",
       "item": [
         null,
         {
-          "id": "191c7050-21b5-4e0f-be1a-7512fc9f20f9",
+          "id": "1fe39dff-d630-4c36-a6ff-d6206258bb05",
           "name": "order",
           "item": [
             null,
             {
-              "id": "01908b16-d79c-4ec9-b2d1-8e4c1d9daf9c",
+              "id": "c45a6ad0-49da-4f24-8f1c-8804e9f57756",
               "name": "{orderId}",
               "item": [
                 null,
@@ -48,13 +224,13 @@
       "event": []
     },
     {
-      "id": "b92f9448-77f4-4fd6-abef-c675f653b054",
+      "id": "53425004-c20a-466c-8a94-1a7c053c8083",
       "name": "user",
       "item": [
         null,
         null,
         {
-          "id": "3d91c339-971a-4148-8f99-3303fb0a09a7",
+          "id": "570413cc-9ad1-4e3b-9f21-764454e13900",
           "name": "{username}",
           "item": [
             null,
@@ -84,7 +260,7 @@
     }
   ],
   "info": {
-    "_postman_id": "8fe50855-6040-4d07-8da3-31709a192e33",
+    "_postman_id": "9b5dd7be-044f-45ff-86fc-c0e1cb87d0ca",
     "name": "Swagger Petstore",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
