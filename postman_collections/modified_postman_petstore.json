@@ -1,13 +1,13 @@
 {
   "item": [
     {
-      "id": "a34f9d25-54de-4231-9d5c-0c3a3c9e88f3",
+      "id": "71a50de7-84c5-4781-910e-9d6ffc3ddce7",
       "name": "pet",
       "item": [
         null,
         null,
         {
-          "id": "b634e468-6ad5-4016-b901-23ca13a286b6",
+          "id": "e75cf0dd-d814-44dc-871c-16f368eb8f50",
           "name": "{petId}",
           "item": [
             null,
@@ -18,7 +18,7 @@
           "event": []
         },
         {
-          "id": "eeea6178-2fd1-4508-b695-2a566659241d",
+          "id": "b3a93b84-6b42-4ff6-b743-9f7a2e67245f",
           "name": "Finds Pets by status",
           "request": {
             "name": "Finds Pets by status",
@@ -77,7 +77,7 @@
           },
           "response": [
             {
-              "id": "46f5b7d0-f48f-494f-84c7-48bdc3990f45",
+              "id": "72f975a2-ab83-4ae8-928f-88a5f73c4f8c",
               "name": "successful operation",
               "originalRequest": {
                 "url": {
@@ -130,7 +130,7 @@
               "_postman_previewlanguage": "json"
             },
             {
-              "id": "48009c7d-a2fd-4a70-b110-09d46c797664",
+              "id": "07df42d9-7931-45ff-adad-02c0302aed97",
               "name": "Invalid status value",
               "originalRequest": {
                 "url": {
@@ -199,17 +199,17 @@
       "event": []
     },
     {
-      "id": "eb8ba369-02c9-4647-a850-2b48f5f2fd1a",
+      "id": "ed03bde8-e9a9-4b27-8a49-5ad33bd1a046",
       "name": "store",
       "item": [
         null,
         {
-          "id": "1fe39dff-d630-4c36-a6ff-d6206258bb05",
+          "id": "2f226686-32a3-40ca-b1ef-7714380c2c0c",
           "name": "order",
           "item": [
             null,
             {
-              "id": "c45a6ad0-49da-4f24-8f1c-8804e9f57756",
+              "id": "b61bccc1-617b-4d4d-b671-e2912c7df7c3",
               "name": "{orderId}",
               "item": [
                 null,
@@ -224,13 +224,13 @@
       "event": []
     },
     {
-      "id": "53425004-c20a-466c-8a94-1a7c053c8083",
+      "id": "0461d248-0e7f-450b-af80-b09be27f1404",
       "name": "user",
       "item": [
         null,
         null,
         {
-          "id": "570413cc-9ad1-4e3b-9f21-764454e13900",
+          "id": "91995815-9fab-4447-8060-df19741dd8e0",
           "name": "{username}",
           "item": [
             null,
@@ -260,7 +260,7 @@
     }
   ],
   "info": {
-    "_postman_id": "9b5dd7be-044f-45ff-86fc-c0e1cb87d0ca",
+    "_postman_id": "3e239c91-c71d-43de-997c-2dbaea2a12c0",
     "name": "Swagger Petstore",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
