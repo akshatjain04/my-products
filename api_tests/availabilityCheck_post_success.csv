@@ -1,11 +1,11 @@
-subscriberId^|^id^|^type^|^value^|^statusCode^|^scenario
-SVTL002^|^14394^|^ES^|^ARC202^|^S001^|^Contact
-SVTL003^|^14395^|^GS^|^GLL203^|^S002^|^Checkout
-SVTL004^|^14396^|^GS^|^GLL204^|^S003^|^Shipping
-SVTL005^|^14397^|^ES^|^ARC205^|^S004^|^Billing
-SVTL006^|^14398^|^ES^|^ARC206^|^S005^|^Refund
-SVTL007^|^14399^|^GS^|^GLL207^|^S006^|^Login
-SVTL008^|^14400^|^GS^|^GLL208^|^S007^|^Newsletter
-SVTL009^|^14401^|^ES^|^ARC209^|^S008^|^Survey
-SVTL010^|^14402^|^ES^|^ARC210^|^S009^|^Interactive 
-SVTL011^|^14403^|^GS^|^GLL211^|^S010^|^AccountUpdate
+customer.subscriberId^|^address.id^|^address.complement.complements^|^statusCode^|^scenario
+SATL001^|^XYZ101^|^{"type": "BS", "description": "building side", "value": "WEST"}^|^200^|^A1
+SATL002^|^XYZ102^|^{"type": "FL", "description": "floor", "value": "10th"}^|^200^|^A2
+SATL003^|^XYZ103^|^{"type": "RM", "description": "room", "value": "45B"}^|^200^|^A3
+SATL004^|^XYZ104^|^{"type": "DP", "description": "door plate", "value": "23A"}^|^200^|^A4
+SATL005^|^XYZ105^|^{"type": "AT", "description": "apartment", "value": "15A"}^|^200^|^A5
+SATL006^|^XYZ106^|^{"type": "LT", "description": "lot", "value": "17W"}^|^200^|^A6
+SATL007^|^XYZ107^|^{"type": "ST", "description": "street", "value": "Elm"}^|^200^|^A7
+SATL008^|^XYZ108^|^{"type": "CT", "description": "city", "value": "NYC"}^|^200^|^A8
+SATL009^|^XYZ109^|^{"type": "PL", "description": "place", "value": "Time Square"}^|^200^|^A9
+SATL010^|^XYZ110^|^{"type": "LS", "description": "landmark", "value": "Empire State"}^|^200^|^A10
