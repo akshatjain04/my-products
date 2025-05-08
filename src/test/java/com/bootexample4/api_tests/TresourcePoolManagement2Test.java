@@ -13,9 +13,9 @@
 
       @Test
       void testAll() {
-          String apiHostServer = System.getenv().getOrDefault("url1_tresourcePoolManagement_(2)_URL1_TRESOURCEPOOLMANAGEMENT__2__URL_BASE", "http://localhost:4010");
+          String apiHostServer = System.getenv().getOrDefault("url1_tresourcePoolManagement_(2)_URL1_TRESOURCEPOOLMANAGEMENT__2__URL1_TRESOURCEPOOLMANAGEMENT__2__URL_BASE", "http://localhost:4010");
           Results results = Runner.path("src/test/java/com/bootexample4/api_tests/TresourcePoolManagement2")
-                  .systemProperty("url1_tresourcePoolManagement_(2)_URL1_TRESOURCEPOOLMANAGEMENT__2__URL_BASE", apiHostServer)
+                  .systemProperty("url1_tresourcePoolManagement_(2)_URL1_TRESOURCEPOOLMANAGEMENT__2__URL1_TRESOURCEPOOLMANAGEMENT__2__URL_BASE", apiHostServer)
                   .reportDir("testReport").parallel(1);
           assertEquals(0, results.getFailCount(), results.getErrorMessages());
       }
