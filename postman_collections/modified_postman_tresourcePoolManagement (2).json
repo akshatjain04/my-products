@@ -1,10 +1,10 @@
 {
   "item": [
     {
-      "id": "dfa5d3fa-68ef-43d1-90ab-43db34562ffd",
-      "name": "Changed Create a Availability Check",
+      "id": "f9dbb32c-7d27-4b6e-b539-52bc3e904123",
+      "name": "Create a Availability Check",
       "request": {
-        "name": "Changed Create a Availability Check",
+        "name": "Create a Availability Check",
         "description": {},
         "url": {
           "path": [
@@ -40,7 +40,7 @@
       },
       "response": [
         {
-          "id": "f636dee0-7e34-4c63-91ad-7f743b64ed0e",
+          "id": "b0c109ca-0dce-4b5f-8280-1665173548bd",
           "name": "successful operation",
           "originalRequest": {
             "url": {
@@ -53,6 +53,12 @@
               "query": [],
               "variable": []
             },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
             "method": "POST",
             "body": {
               "mode": "raw",
@@ -69,15 +75,15 @@
           "header": [
             {
               "key": "Content-Type",
-              "value": "text/plain"
+              "value": "application/json"
             }
           ],
-          "body": "",
+          "body": "{\n  \"control\": {\n    \"type\": \"S\",\n    \"code\": 200,\n    \"message\": \"OK\"\n  },\n  \"resource\": {\n    \"inventoryId\": 1766156,\n    \"maxBandwidth\": 1000,\n    \"availabilityType\": 1,\n    \"availabilityCode\": 0,\n    \"availabilityDescription\": \"Viável - Viabilidade técnica confirmada\",\n    \"products\": {\n      \"product\": [\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_100MB\",\n          \"name\": \"VELOC_100MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_200MB\",\n          \"name\": \"VELOC_200MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_400MB\",\n          \"name\": \"VELOC_400MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_500MB\",\n          \"name\": \"VELOC_500MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_1000MB\",\n          \"name\": \"VELOC_1000MBPS\",\n          \"technology\": \"\",\n          \"best_offer\": true\n        }\n      ]\n    }\n  }\n}",
           "cookie": [],
-          "_postman_previewlanguage": "text"
+          "_postman_previewlanguage": "json"
         },
         {
-          "id": "fbf156fb-fc77-4d08-b45a-f5490152980c",
+          "id": "011baaef-e1f3-4f03-a96a-9b5e91960370",
           "name": "Bad Request",
           "originalRequest": {
             "url": {
@@ -120,7 +126,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "10e8ddcf-7aef-4bca-a83a-e57e1f0391c6",
+          "id": "acc404f7-d30e-4332-af5d-f1175a6736d0",
           "name": "Unauthorized",
           "originalRequest": {
             "url": {
@@ -163,7 +169,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "9fc5f732-709f-49fe-bc60-eebba2881a77",
+          "id": "87a3493a-bb62-4b81-bdcb-039de7782e1d",
           "name": "Forbidden - Scope Not Permitted",
           "originalRequest": {
             "url": {
@@ -206,7 +212,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "03c85470-42e6-45e7-9396-6f7003946362",
+          "id": "b3525b62-f37b-4530-8478-72a19e876f19",
           "name": "Not Found",
           "originalRequest": {
             "url": {
@@ -249,7 +255,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "c019ad35-9638-4489-8615-4d170c1086c7",
+          "id": "214630ba-734f-46e1-a050-0682e6975068",
           "name": "Too Many Requests - Exceeded Quota",
           "originalRequest": {
             "url": {
@@ -292,7 +298,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "62c3e440-cd36-4384-b9f6-1a62654f82df",
+          "id": "3131fbb4-40f8-4f4a-8354-b5b3893d3fd3",
           "name": "Internal Server Error",
           "originalRequest": {
             "url": {
@@ -335,7 +341,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "cb2821de-b20e-4265-baae-b296de7f9473",
+          "id": "e7b905e8-70e7-4d3f-89c4-dfd33b076124",
           "name": "Service Unavailable",
           "originalRequest": {
             "url": {
@@ -378,7 +384,7 @@
           "_postman_previewlanguage": "json"
         },
         {
-          "id": "c02cacfc-31a3-464c-a48e-96c22b20ce3b",
+          "id": "fc98717d-51cc-4ffb-a6f7-8c607a31c2a9",
           "name": "Gateway Timeout",
           "originalRequest": {
             "url": {
@@ -426,7 +432,7 @@
           "listen": "test",
           "script": {
             "exec": [
-              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for availabilityCheck for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n      });\n\n    }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n"
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for availabilityCheck for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          pm.test('Response has the `resource` field',function(){\n            pm.expect(responseData.resource).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.resource).to.eql(JSON.parse(pm.request.body).resource);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n          pm.response.to.have.header(\"Content-Type\");\n\n          pm.test('Response has the `control` field',function(){\n            pm.expect(responseData.control).to.exist.and.to.be.a(\"object\");\n          pm.expect(responseData.control).to.eql(JSON.parse(pm.request.body).control);\n\n          })\n\n          });\n\n        }\n"
             ],
             "type": "text/javascript"
           }
@@ -451,7 +457,7 @@
     }
   ],
   "info": {
-    "_postman_id": "c27a35e0-65ad-4ed2-a034-bfee72b027d6",
+    "_postman_id": "6c0c60a3-e465-4ba5-a0ad-4f0a6af9b409",
     "name": "ResourcePoolManagement",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
