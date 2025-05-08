@@ -1,0 +1,3 @@
+requestBody,availabilityType
+"{ customer: { subscriberId: 'SVTL001' }, address: { id: 14393, complement: { complements: [ { type: 'ES', value: 'ARC201' } ] } } }","1"
+"{ customer: { subscriberId: 'SVTL001' }, address: { id: 2449 } }","2"
