@@ -1,11 +1,11 @@
-subscriberId^|^id^|^type^|^value^|^statusCode^|^scenario
-SVTL002^|^14394^|^ES^|^ARC202^|^S001^|^Contact
-SVTL003^|^14395^|^GS^|^GLL203^|^S002^|^Checkout
-SVTL004^|^14396^|^GS^|^GLL204^|^S003^|^Shipping
-SVTL005^|^14397^|^ES^|^ARC205^|^S004^|^Billing
-SVTL006^|^14398^|^ES^|^ARC206^|^S005^|^Refund
-SVTL007^|^14399^|^GS^|^GLL207^|^S006^|^Login
-SVTL008^|^14400^|^GS^|^GLL208^|^S007^|^Newsletter
-SVTL009^|^14401^|^ES^|^ARC209^|^S008^|^Survey
-SVTL010^|^14402^|^ES^|^ARC210^|^S009^|^Interactive 
-SVTL011^|^14403^|^GS^|^GLL211^|^S010^|^AccountUpdate
+subscriberId^|^id^|^type^|^value^|^description^|^statusCode^|^scenario
+SVTL001^|^14393^|^ES^|^ARC201^|^Dallas Apartment^|^200^|^Urban Living
+SVTL002^|^2449^|^FL^|^MIK401^|^Miami Beachfront^|^200^|^Vacation Home
+SVTL003^|^8945^|^NY^|^BKNY1^|^Brooklyn Loft^|^200^|^Urban Living
+SVTL004^|^6231^|^CA^|^LAX05^|^Los Angeles Residence^|^200^|^Urban Living
+SVTL005^|^7563^|^TX^|^AUS11^|^Austin House^|^200^|^Home
+SVTL006^|^9772^|^GA^|^ATL90^|^Atlanta Apartment^|^200^|^Urban Living
+SVTL007^|^8123^|^NJ^|^NWK05^|^Newark Condo^|^200^|^Urban Living
+SVTL008^|^3912^|^MI^|^DTW21^|^Detroit Home^|^200^|^Home
+SVTL009^|^5410^|^OH^|^CLE31^|^Cleveland Residence^|^200^|^Home
+SVTL010^|^6751^|^AZ^|^PHX45^|^Phoenix Apartment^|^200^|^Urban Living
