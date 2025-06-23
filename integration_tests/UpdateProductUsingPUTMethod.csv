@@ -1,0 +1,11 @@
+name^|^description^|^price^|^statusCode^|^scenario
+Alice^|^A premium member with exclusive access^|^19.99^|^200^|^{"type":"premium","actions":["access_dashboard","view_reports"]}
+Bob^|^Regular user with limited access^|^9.99^|^200^|^{"type":"regular","actions":["browse_catalog"]}
+Charlie^|^User with trial access for 30 days^|^0.00^|^100^|^{"type":"trial","actions":["view_promotions","limited_access"]}
+Danielle^|^An inactive user marked for review^|^0.00^|^403^|^{"type":"inactive","actions":["none"]}
+Ethan^|^A user with yearly subscription^|^99.99^|^200^|^{"type":"subscriber","actions":["yearly_payment","full_access"]}
+Fiona^|^Visitor using a free plan^|^0.00^|^200^|^{"type":"visitor","actions":["browse_free","register_interest"]}
+George^|^User flagged for possible policy violations^|^0.00^|^450^|^{"type":"flagged","actions":["review_activity","disable_account"]}
+Helen^|^Corporate account user^|^499.99^|^200^|^{"type":"corporate","actions":["manager_dashboard","team_permissions"]}
+Ian^|^User upgrading from trial plan^|^29.99^|^202^|^{"type":"trial_upgrade","actions":["payment_pending","limited_access"]}
+Jenny^|^Lead user for initial testing phase^|^79.99^|^200^|^{"type":"tester","actions":["early_access","provide_feedback"]}
