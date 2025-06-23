@@ -1,0 +1,11 @@
+name^|^description^|^price^|^statusCode^|^scenario
+AlphaProduct^|^A high-quality product for alpha testing designed to meet robust user requirements^|^2499.99^|^200^|^{"testType":"alpha","priority":"high","modules":["core","analytics"],"deliveryDate":"2023-12-01"}
+BetaSolution^|^Beta stage solution for early adopters focusing on innovative user solutions^|^1999.50^|^201^|^{"testType":"beta","priority":"medium","modules":["interface","security"],"deliveryDate":"2024-01-15"}
+GammaTool^|^Advanced gamma analysis tool for enhanced system monitoring capabilities^|^1599.75^|^200^|^{"testType":"gamma","priority":"low","modules":["performance","diagnostics"],"deliveryDate":"2023-11-20"}
+DeltaDevice^|^Reliable delta device built for everyday usage and long-term reliability^|^899.65^|^404^|^{"testType":"delta","priority":"medium","modules":["hardware","firmware"],"deliveryDate":"2023-12-10"}
+EpsilonService^|^Epsilon level cloud service designed for uninterrupted online connectivity^|^119.99^|^503^|^{"testType":"epsilon","priority":"high","modules":["storage","scalability"],"deliveryDate":"2023-12-22"}
+ZetaFramework^|^Zeta framework for creating modular and extendable project solutions^|^749.00^|^200^|^{"testType":"zeta","priority":"low","modules":["framework","ui"],"deliveryDate":"2023-12-10"}
+EtaApp^|^Mobile application to automate eta-driven business processes^|^550.85^|^201^|^{"testType":"eta","priority":"medium","modules":["mobile","integration"],"deliveryDate":"2023-11-25"}
+ThetaSystem^|^Theta system infrastructure to optimize distributed workloads and operations^|^3399.99^|^500^|^{"testType":"theta","priority":"high","modules":["networks","cloud"],"deliveryDate":"2024-01-05"}
+IotaPlatform^|^Platform to enable iota particle-level computation models for research purposes^|^4799.45^|^400^|^{"testType":"iota","priority":"high","modules":["computational","api"],"deliveryDate":"2024-02-01"}
+KappaEngine^|^Engine designed for kappa-level integration in high-speed simulation environments^|^6799.99^|^202^|^{"testType":"kappa","priority":"medium","modules":["simulation","high-speed"],"deliveryDate":"2024-01-20"}

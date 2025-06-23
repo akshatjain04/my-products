@@ -1,0 +1,11 @@
+productID^|^statusCode^|^scenario
+P001^|^200^|^{"type":"action","description":"User purchased item","timestamp":"2023-10-01T14:32:00Z"}
+P002^|^404^|^{"type":"error","description":"Product not found","timestamp":"2023-10-01T14:35:00Z"}
+P003^|^500^|^{"type":"system","description":"Internal server error","timestamp":"2023-10-01T14:37:00Z"}
+P004^|^200^|^{"type":"action","description":"User added item to cart","timestamp":"2023-10-01T14:40:00Z"}
+P005^|^401^|^{"type":"error","description":"Unauthorized access","timestamp":"2023-10-01T14:42:00Z"}
+P006^|^200^|^{"type":"action","description":"User viewed product details","timestamp":"2023-10-01T14:45:00Z"}
+P007^|^403^|^{"type":"error","description":"User does not have permission","timestamp":"2023-10-01T14:48:00Z"}
+P008^|^200^|^{"type":"action","description":"User left a review for item","timestamp":"2023-10-01T14:50:00Z"}
+P009^|^404^|^{"type":"error","description":"Related product not found","timestamp":"2023-10-01T14:55:00Z"}
+P010^|^200^|^{"type":"action","description":"Special offer accessed","timestamp":"2023-10-01T15:00:00Z"}

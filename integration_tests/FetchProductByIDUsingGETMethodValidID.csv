@@ -1,0 +1,11 @@
+productId^|^statusCode^|^scenario
+P12345^|^200^|^{"type":"success","message":"Product retrieved successfully"}
+P67890^|^404^|^{"type":"error","message":"Product not found"}
+P54321^|^500^|^{"type":"error","message":"Internal server error"}
+P09876^|^403^|^{"type":"error","message":"Access denied"}
+P11223^|^200^|^{"type":"success","message":"Product details updated"}
+P44556^|^400^|^{"type":"error","message":"Invalid product data"}
+P78901^|^201^|^{"type":"success","message":"Product created successfully"}
+P23456^|^204^|^{"type":"success","message":"Product deleted successfully"}
+P34567^|^503^|^{"type":"error","message":"Service unavailable"}
+P45678^|^202^|^{"type":"success","message":"Product update initiated"}
