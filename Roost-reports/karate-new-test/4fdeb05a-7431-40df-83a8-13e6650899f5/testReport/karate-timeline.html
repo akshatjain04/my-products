@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.1:53]","start":1750747889305,"end":1750747889809,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.1:53] 06:51:29.305-06:51:29.809 Place an order for a pet","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.2:54]","start":1750747889829,"end":1750747889852,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.2:54] 06:51:29.829-06:51:29.852 Place an order for a pet","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.3:55]","start":1750747889871,"end":1750747889892,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.3:55] 06:51:29.871-06:51:29.892 Place an order for a pet","className":"failed"},{"id":4,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.4:56]","start":1750747889903,"end":1750747889916,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[1.4:56] 06:51:29.903-06:51:29.916 Place an order for a pet","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[2:58]","start":1750747889925,"end":1750747889942,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[2:58] 06:51:29.925-06:51:29.942 Place an order for a pet with missing required fields","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[3:74]","start":1750747889951,"end":1750747889962,"title":"src\/test\/java\/com\/bootexample4\/api_tests\/V2Swagger\/store_order_post[3:74] 06:51:29.951-06:51:29.962 Place an order for a pet with invalid status","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
