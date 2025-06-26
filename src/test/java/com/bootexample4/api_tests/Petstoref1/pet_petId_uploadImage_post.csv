@@ -1,0 +1,9 @@
+petId,additionalMetadata,filePath,fileName,contentType
+"1","image metadata","test_image.jpg","test_image.jpg","image/jpeg"
+"2","metadata test","test_image.png","test_image.png","image/png"
+"3","metadata example","test_image.gif","test_image.gif","image/gif"
+"1","missing file test","test_image.jpg","test_image.jpg","image/jpeg"
+"2","endpoint validation","test_image.png","test_image.png","image/png"
+"3","no file included","test_image.jpg","test_image.jpg","image/jpeg"
+"1","image metadata","test_image.png","test_image.png","image/png"
+"2","metadata test","test_image.jpg","test_image.jpg","image/jpeg"
