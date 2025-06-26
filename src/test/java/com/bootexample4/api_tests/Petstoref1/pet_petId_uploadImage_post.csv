@@ -1,0 +1,7 @@
+petId,additionalMetadata,filePath,fileName
+"123","Sample Metadata","test.jpg","image.jpg"
+"456","null","test2.png","image2.png"
+"789","Only Metadata","test.png","image.png"
+"987","Metadata without file","test.png","image.png"
+"123","Metadata","test.png","image.png"
+"456","null","test.png","image.png"
