@@ -1,0 +1,5 @@
+petId,additionalMetadata,file
+"123","Test data for upload","{ read: 'test-image.jpg', filename: 'test-image.jpg', contentType: 'image/jpeg' }"
+"456","Additional info","{ read: 'another-image.png', filename: 'another-image.png', contentType: 'image/png' }"
+"1001","Test data for upload","{ read: 'test-image.jpg', filename: 'test-image.jpg', contentType: 'image/jpeg' }"
+"2002","Additional info","{ read: 'another-image.png', filename: 'another-image.png', contentType: 'image/png' }"
