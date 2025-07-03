@@ -1,0 +1,3 @@
+petId,additionalMetadata,filePath
+"12345","Test metadata","classpath:images/test.jpg"
+"54321","null","classpath:images/sample.jpg"
