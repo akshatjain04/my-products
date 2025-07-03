@@ -1,0 +1,11 @@
+name^|^description^|^price^|^statusCode^|^scenario
+ProductA^|^A description of ProductA detailing features and benefits.^|^19.99^|^200^|^{"type":"offer","valid":true,"expires":"2023-12-31"}
+ProductB^|^Key details and specifications of ProductB for buyers.^|^29.99^|^404^|^{"type":"error","valid":false,"reason":"Not found"}
+ProductC^|^Insights into ProductC's value proposition and market.^|^15.75^|^500^|^{"type":"error","valid":false,"reason":"Internal server error"}
+ProductD^|^An overview of ProductD's performance and price point.^|^49.99^|^202^|^{"type":"update","valid":true,"message":"Accepted"}
+ProductE^|^Highlights from ProductE’s unique selling points.^|^99.99^|^403^|^{"type":"error","valid":false,"reason":"Forbidden access"}
+ProductF^|^Narrative description of ProductF’s new features.^|^12.50^|^200^|^{"type":"offer","valid":true,"expires":"2024-01-15"}
+ProductG^|^Comparative notes between ProductG and competitors.^|^35.00^|^302^|^{"type":"redirect","valid":true,"target":"new-url"}
+ProductH^|^Specification sheet for ProductH including dimensions.^|^24.99^|^400^|^{"type":"error","valid":false,"reason":"Bad request"}
+ProductI^|^Promotional text for ProductI created for a campaign.^|^18.50^|^200^|^{"type":"offer","valid":true,"expires":"2023-12-01"}
+ProductJ^|^Content outlining ProductJ's benefits for consumers.^|^75.99^|^503^|^{"type":"error","valid":false,"reason":"Server unavailable"}
