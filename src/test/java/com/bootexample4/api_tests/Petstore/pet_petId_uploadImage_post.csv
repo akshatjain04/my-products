@@ -1,0 +1,3 @@
+petId,additionalMetadata,filePath
+"101","Image metadata example","classpath:sample.jpg"
+"102","Sample metadata","classpath:test.png"
