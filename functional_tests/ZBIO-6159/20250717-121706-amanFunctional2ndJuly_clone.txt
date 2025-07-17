@@ -1,0 +1,132 @@
+{
+  "scenarios": [
+    {
+      "type": "functional",
+      "title": "PDF Upload in Functional Testing",
+      "description": "Verify that a user can upload a Jira ticket as a PDF for functional testing.",
+      "testId": "TC-001",
+      "testDescription": "Validate the upload functionality where a user can attach Jira PDFs as an alternative to linking with Jira/Azure DevOps.",
+      "prerequisites": "The system must be configured with a UI option to upload PDFs. Supported file types must include '.pdf'. Required endpoint configurations must exist.",
+      "stepsToPerform": [
+        "1. Navigate to the Functional Testing page.",
+        "2. Click on the 'Upload Jira PDF' button.",
+        "3. Select a valid Jira ticket PDF file from the local filesystem.",
+        "4. Confirm the file upload.",
+        "5. Wait for upload completion status."
+      ],
+      "expectedResult": "The PDF is successfully uploaded, and the system displays a confirmation message indicating the file has been saved with its file name and prompt type."
+    },
+    {
+      "type": "functional",
+      "title": "PDF Parsing",
+      "description": "Ensure the Jira ticket PDF is parsed correctly to extract description, title, and comments.",
+      "testId": "TC-002",
+      "testDescription": "Using regex-based parsing, validate if the system extracts key details (title, description, comments) from a typical Jira PDF.",
+      "prerequisites": "The PDF must be uploaded to the system, and regex parsing logic must be implemented on the backend.",
+      "stepsToPerform": [
+        "1. Upload a Jira ticket PDF via the 'Upload Jira PDF' option.",
+        "2. Trigger backend parsing after upload.",
+        "3. View the extracted details on the screen or in system logs."
+      ],
+      "expectedResult": "The system parses the PDF successfully, and extracted fields include valid values for title, description, and comments."
+    },
+    {
+      "type": "functional",
+      "title": "Validation of Unsupported File Types",
+      "description": "Ensure the upload functionality rejects unsupported file types (e.g., .docx, .txt, .xls).",
+      "testId": "TC-003",
+      "testDescription": "Verify that only PDF files can be uploaded, ensuring unsupported document types are not accepted.",
+      "prerequisites": "UI must enforce file type restrictions and backend validation logic must exist.",
+      "stepsToPerform": [
+        "1. Navigate to Functional Testing page.",
+        "2. Click on 'Upload Jira PDF' button.",
+        "3. Try uploading an unsupported file type (e.g., '.docx').",
+        "4. Observe system behavior."
+      ],
+      "expectedResult": "The system displays an error message indicating that only PDF files are supported."
+    },
+    {
+      "type": "functional",
+      "title": "Storing File Metadata in roost-reg",
+      "description": "Verify the file metadata (file path, file name, and prompt type) is correctly stored in roost-reg.",
+      "testId": "TC-004",
+      "testDescription": "Confirm that upon PDF upload, the system stores accurate metadata attributes for the file in roost-reg.",
+      "prerequisites": "Ensure PDF upload functionality is working; roost-reg must be accessible.",
+      "stepsToPerform": [
+        "1. Upload a valid Jira ticket PDF.",
+        "2. Fetch the file metadata stored in roost-reg.",
+        "3. Verify that file name, prompt type, and file path are accurate."
+      ],
+      "expectedResult": "The file metadata is accurately stored with correct values for file name, file path, and prompt type."
+    },
+    {
+      "type": "functional",
+      "title": "Sending Metadata and Content to AI Server",
+      "description": "Verify that file content, file name, and prompt type are sent correctly to the AI server.",
+      "testId": "TC-005",
+      "testDescription": "Validate that the backend system processes the metadata and content correctly and forwards it to the AI server via Node.js.",
+      "prerequisites": "PDF file must be uploaded and metadata successfully stored in roost-reg.",
+      "stepsToPerform": [
+        "1. Upload a Jira ticket PDF file.",
+        "2. Trigger backend process to send file metadata and content to the AI server.",
+        "3. Monitor the API logs for request payload sent to the AI server."
+      ],
+      "expectedResult": "The AI server receives the file content, file name, and prompt type without errors or omissions."
+    },
+    {
+      "type": "non-functional",
+      "title": "Performance Test for PDF Upload",
+      "description": "Test the upload speed and system response time for a Jira ticket PDF file.",
+      "testId": "TC-006",
+      "testDescription": "Measure the time taken to upload a typical Jira PDF and validate that it meets the acceptable performance thresholds (< 3 seconds for files < 5MB).",
+      "prerequisites": "Network conditions must be stable, and the test must use a file < 5MB.",
+      "stepsToPerform": [
+        "1. Navigate to the Functional Testing page.",
+        "2. Upload a Jira PDF file under 5MB.",
+        "3. Record the time taken from initiation to completion of the upload process."
+      ],
+      "expectedResult": "The upload process completes within 3 seconds, and the system remains responsive throughout."
+    },
+    {
+      "type": "non-functional",
+      "title": "Scalability Test for Multiple PDF Uploads",
+      "description": "Test how the system handles simultaneous PDF uploads.",
+      "testId": "TC-007",
+      "testDescription": "Simulate uploading 10 Jira PDFs concurrently to verify the system's ability to scale and avoid performance bottlenecks.",
+      "prerequisites": "The system must allow concurrent operations and support queued uploads.",
+      "stepsToPerform": [
+        "1. Prepare 10 valid Jira ticket PDFs.",
+        "2. Initiate concurrent uploads using multiple browser tabs or automated scripts.",
+        "3. Monitor system performance and stability during upload."
+      ],
+      "expectedResult": "The system handles the concurrent uploads seamlessly without crashes or significant slowdowns."
+    },
+    {
+      "type": "non-functional",
+      "title": "Security Test for File Upload",
+      "description": "Ensure that only authorized users are able to upload files.",
+      "testId": "TC-008",
+      "testDescription": "Validate access controls and prevent unauthorized file uploads.",
+      "prerequisites": "System permissions and user roles must be configured.",
+      "stepsToPerform": [
+        "1. Attempt file upload as an unauthorized user.",
+        "2. Observe the system response and error messages."
+      ],
+      "expectedResult": "Unauthorized users cannot upload files, and the system displays an appropriate error message."
+    },
+    {
+      "type": "non-functional",
+      "title": "File Size Limit Enforcement",
+      "description": "Ensure that the system enforces a maximum file size limit for PDF uploads (e.g., 10MB).",
+      "testId": "TC-009",
+      "testDescription": "Verify the system rejects PDF files exceeding the configured size limit.",
+      "prerequisites": "System limit for file size must be set.",
+      "stepsToPerform": [
+        "1. Navigate to Functional Testing page.",
+        "2. Attempt to upload a PDF file larger than 10MB.",
+        "3. Observe the system response."
+      ],
+      "expectedResult": "The system rejects the file and displays an error message: 'File size exceeds the maximum allowed limit of 10MB.'"
+    }
+  ]
+}

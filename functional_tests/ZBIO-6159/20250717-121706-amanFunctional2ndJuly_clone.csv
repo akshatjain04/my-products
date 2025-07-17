@@ -1,0 +1,9 @@
+Functional Test - PDF Upload
+Functional Test - PDF Parsing
+Functional Test - Validation of Unsupported File Types
+Functional Test - Storing File Metadata in roost-reg
+Functional Test - Sending Metadata and Content to AI Server
+Non-Functional Test - Performance for PDF Upload
+Non-Functional Test - Scalability for Multiple PDF Uploads
+Non-Functional Test - Security for File Upload
+Non-Functional Test - File Size Limit Enforcement
