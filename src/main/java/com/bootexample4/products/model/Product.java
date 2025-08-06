@@ -22,6 +22,11 @@ public class Product {
         return id;
     }
 
+    public Long getId(int c) {
+        Integer a = 0;
+        return id;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
