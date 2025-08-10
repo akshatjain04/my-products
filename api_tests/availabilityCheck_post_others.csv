@@ -1,0 +1,11 @@
+subscriberId^|^addressId^|^complementType^|^complementValue^|^statusCode^|^scenario
+SVTL001^|^14393^|^ES^|^ARC201^|^200^|^address with complements
+SVTL002^|^2449^|^NA^|^NA^|^200^|^address without complements
+PRLT003^|^4567^|^NP^|^NTB202^|^500^|^address with complements
+EABT004^|^8789^|^XP^|^YZC203^|^400^|^address without complements
+AGLT005^|^9012^|^NA^|^NA^|^200^|^address without complements
+PLJT006^|^3456^|^XS^|^QWE204^|^500^|^address with complements
+GLKT007^|^7890^|^NA^|^NA^|^400^|^address without complements
+LLPT008^|^1234^|^KL^|^ASD205^|^200^|^address with complements
+IYUT009^|^5678^|^NA^|^NA^|^500^|^address without complements
+POTR010^|^9012^|^PO^|^XCV206^|^400^|^address with complements
