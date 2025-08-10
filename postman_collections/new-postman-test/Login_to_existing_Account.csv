@@ -1,0 +1,5 @@
+email,statusCode,scenario
+"john.doe@example.com",200,"successful operation"
+"jane.doe@example.com",200,"successful operation"
+"invalid.email",400,"Bad Request"
+"no-reply@example.com",400,"Bad Request"
