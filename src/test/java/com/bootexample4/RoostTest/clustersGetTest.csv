@@ -1,0 +1,11 @@
+statusCode,userID,userName,userEmail,userGender,userDOB,purchaseHistory
+200,1,johndoe,johndoe@example.com,Male,1990-02-15,'Vegetables','Fruits','Sports Equipement'
+201,2,janedoe,janedoe@example.com,Female,1988-09-05,'Books','Groceries'
+200,3,emilydoe,emilydoe@example.com,Female,1995-05-11,'Electronics','Books'
+201,4,stevendoe,stevendoe@example.com,Male,1975-10-07,'Sport Equipements','Groceries'
+202,5,racheldoe,racheldoe@example.com,Female,1984-03-25,'Vegetables','Clothes','Electronics'
+203,6,peterdoe,peterdoe@example.com,Male,1993-08-18,'Groceries','Fruits'
+202,7,marthadoe,marthadoe@example.com,Female,1990-09-09,'Groceries','Clothes'
+203,8,kyledoe,kyledoe@example.com,Male,1985-02-28,'Books','Fruits','Electronics'
+204,9,jessicadoe,jessicadoe@example.com,Female,1980-06-15,'Sport Equipements','Clothes'
+205,10,mikedoe,mikedoe@example.com,Male,1992-10-05,'Books','Clothes'
