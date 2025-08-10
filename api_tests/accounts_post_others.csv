@@ -1,0 +1,12 @@
+email^|^commit-hash
+alice@example.com^|^1a2b3c4
+bob@example.net^|^5d6e7f8
+charlie@invalid^|^9g0h1i2
+david@example.org^|^
+eva@rightformat.com^|^abcd123
+frank@incomplete^|^
+grace@valid.co.uk^|^7f8g9h0
+henry@domain.com^|^
+invalidemail.com^|^1234567
+julia@anotherdomain.com^|^
+katie@wellformed.com^|^0a1b2c3
