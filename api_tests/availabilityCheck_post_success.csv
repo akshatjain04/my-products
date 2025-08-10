@@ -1,0 +1,11 @@
+subscriberId^|^id^|^type^|^value^|^statusCode^|^scenario
+SVTL002^|^14394^|^ES^|^ARC202^|^S001^|^Contact
+SVTL003^|^14395^|^GS^|^GLL203^|^S002^|^Checkout
+SVTL004^|^14396^|^GS^|^GLL204^|^S003^|^Shipping
+SVTL005^|^14397^|^ES^|^ARC205^|^S004^|^Billing
+SVTL006^|^14398^|^ES^|^ARC206^|^S005^|^Refund
+SVTL007^|^14399^|^GS^|^GLL207^|^S006^|^Login
+SVTL008^|^14400^|^GS^|^GLL208^|^S007^|^Newsletter
+SVTL009^|^14401^|^ES^|^ARC209^|^S008^|^Survey
+SVTL010^|^14402^|^ES^|^ARC210^|^S009^|^Interactive 
+SVTL011^|^14403^|^GS^|^GLL211^|^S010^|^AccountUpdate
