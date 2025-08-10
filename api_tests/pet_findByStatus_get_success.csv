@@ -1,0 +1,11 @@
+id^|^category.id^|^category.name^|^name^|^photoUrls^|^tags.id^|^tags.name^|^status
+1^|^10^|^Furniture^|^Cozy Couch^|^http://example.com/cozycouch^|^100^|^Comfortable^|^available
+2^|^20^|^Electronics^|^Durable Laptop^|^http://example.com/durablelaptop^|^200^|^Durable^|^sold
+3^|^30^|^Kitchen Appliances^|^Powerful Blender^|^http://example.com/powerfulblender^|^300^|^Powerful^|^pending
+4^|^40^|^Mobiles^|^Smart Phone^|^http://example.com/smartphone^|^400^|^Stylish^|^available
+5^|^50^|^Watches^|^Elegant Watch^|^http://example.com/elegantwatch^|^500^|^Elegant^|^sold
+6^|^60^|^Books^|^Best Novel^|^http://example.com/bestnovel^|^600^|^Interesting^|^pending
+7^|^70^|^Sports Equipment^|^Handy Treadmill^|^http://example.com/handytreadmill^|^700^|^Useful^|^available
+8^|^80^|^Musical Instruments^|^Classic Guitar^|^http://example.com/classicguitar^|^800^|^Classic^|^sold
+9^|^90^|^Grocery^|^Fresh Fruits^|^http://example.com/freshfruits^|^900^|^Healthy^|^pending
+10^|^100^|^Fashion^|^Trendy Outfit^|^http://example.com/trendyoutfit^|^1000^|^Trendy^|^available
