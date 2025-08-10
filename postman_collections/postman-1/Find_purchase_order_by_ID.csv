@@ -1,0 +1,10 @@
+orderId,statusCode,scenario
+1,200,successful operation
+2,400,Invalid ID supplied
+3,404,Order not found
+5,200,successful operation
+6,400,Invalid ID supplied
+8,404,Order not found
+10,200,successful operation
+11,400,Invalid ID supplied
+12,404,Order not found

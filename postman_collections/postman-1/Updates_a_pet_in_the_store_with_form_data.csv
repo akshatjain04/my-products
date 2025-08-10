@@ -1,0 +1,10 @@
+petId,name,status,statusCode,scenario
+21345,"Sammy","sold",405,"Invalid input"
+38392,"Daisy","pending",405,"Invalid input"
+89456,"Max","available",405,"Invalid input"
+90123,"Bella","sold",405,"Invalid input"
+78653,"Lucy","pending",405,"Invalid input"
+00125,"Rocky","available",405,"Invalid input"
+62134,"Duke","sold",405,"Invalid input"
+45782,"Maggie","pending",405,"Invalid input"
+12938,"Buddy","available",405,"Invalid input"

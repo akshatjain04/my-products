@@ -1,0 +1,7 @@
+name,photoUrls,id,category.id,category.name,tags,status,statusCode,scenario
+doggie,["url1", "url2"],1234,56,Category,["tag1", "tag2"],"available",405,"Invalid input"
+kitty,["url3", "url4"],5678,12,Subcategory,["tag3", "tag4"],"pending",405,"Invalid input"
+bunny,["url5", "url6"],9101,34,Sub-Subcategory,["tag5", "tag6"],"sold",405,"Invalid input"
+hamster,["url7", "url8"],1123,78,Other Category,["tag7", "tag8"],"available",405,"Invalid input"
+fish,["url9", "url10"],4567,90,Aquatic Category,["tag9", "tag10"],"pending",405,"Invalid input"
+bird,["url11", "url12"],8910,23,Air Category,["tag11", "tag12"],"sold",405,"Invalid input"

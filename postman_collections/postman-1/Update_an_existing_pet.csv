@@ -1,0 +1,4 @@
+name,photoUrls,id,category.id,category.name,tags,status,statusCode,scenario
+doggie,["url1", "url2"],111,222,Pets,["tag1","tag2"],pending,400,Invalid ID supplied
+kitty,["url3", "url4"],333,444,Cats,["tag3","tag4"],sold,404,Pet not found
+birdie,["url5", "url6"],555,666,Birds,["tag5","tag6"],available,405,Validation exception

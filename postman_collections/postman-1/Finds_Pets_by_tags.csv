@@ -1,0 +1,11 @@
+tags,statusCode,scenario
+"dog, cat, bird",200,"successful operation"
+"fish, hamster, turtle",200,"successful operation"
+"lion, tiger, elephant",400,"Invalid tag value"
+"shark, whale, dolphin",400,"Invalid tag value"
+"python, java, c++",400,"Invalid tag value"
+"html, css, javascript",200,"successful operation"
+"potato, tomato, cucumber",400,"Invalid tag value"
+"apple, orange, banana",200,"successful operation"
+"car, bike, bus",400,"Invalid tag value"
+"train, plane, ship",200,"successful operation"
