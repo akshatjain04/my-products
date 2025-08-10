@@ -1,0 +1,11 @@
+username^|^email^|^firstName^|^lastName^|^name^|^category^|^status^|^statusCode^|^scenario
+jsmith^|^jsmith@example.com^|^John^|^Smith^|^John Smith^|^User^|^Active^|^200^|^Admin
+djones^|^djones@example.com^|^David^|^Jones^|^David Jones^|^User^|^Inactive^|^400^|^Visitor
+mjackson^|^mjackson@example.com^|^Michael^|^Jackson^|^Michael Jackson^|^Admin^|^Active^|^200^|^Admin
+edwards^|^edwards@example.com^|^Edward^|^Sward^|^Edward Sward^|^Admin^|^Active^|^200^|^User
+swilliams^|^swilliams@example.com^|^Sarah^|^Williams^|^Sarah Williams^|^User^|^Inactive^|^400^|^Visitor
+kwright^|^kwright@example.com^|^Katie^|^Wright^|^Katie Wright^|^Admin^|^Active^|^200^|^Admin
+bturner^|^bturner@example.com^|^Bob^|^Turner^|^Bob Turner^|^User^|^Active^|^200^|^User
+cwhite^|^cwhite@example.com^|^Charlie^|^White^|^Charlie White^|^Admin^|^Inactive^|^400^|^Visitor
+aharris^|^aharris@example.com^|^Alice^|^Harris^|^Alice Harris^|^User^|^Active^|^200^|^Admin
+rmartin^|^rmartin@example.com^|^Richard^|^Martin^|^Richard Martin^|^Admin^|^Active^|^200^|^User
