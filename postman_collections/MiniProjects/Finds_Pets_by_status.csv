@@ -1,0 +1,9 @@
+status,statusCode,scenario
+Available,200,successful operation
+Sold,200,successful operation
+"String with spaces",200,successful operation
+"Escaped \"string\" value",200,successful operation
+Not Available,400,Invalid status value
+Unknown,400,Invalid status value
+"Invalid \"string\" value",400,Invalid status value
+Empty String,400,Invalid status value
