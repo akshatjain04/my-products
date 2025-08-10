@@ -1,0 +1,11 @@
+UserID,Username,Email,Age,JoinDate,Country,SubscriptionType
+1,johndoe1,johndoe1@example.com,25,2023-01-15,USA,Basic
+2,janesmith2,janesmith2@example.com,30,2023-01-16,Canada,Premium
+3,mikebrown3,mikebrown3@example.com,28,2023-01-17,UK,Standard
+4,emilywhite4,emilywhite4@example.com,22,2023-01-18,Australia,Basic
+5,davidgreen5,davidgreen5@example.com,35,2023-01-19,USA,Premium
+6,sarahblack6,sarahblack6@example.com,27,2023-01-20,Canada,Standard
+7,kevinblue7,kevinblue7@example.com,32,2023-01-21,UK,Basic
+8,laurapurple8,laurapurple8@example.com,24,2023-01-22,Australia,Premium
+9,robertred9,robertred9@example.com,29,2023-01-23,USA,Standard
+10,annayellow10,annayellow10@example.com,31,2023-01-24,Canada,Basic
