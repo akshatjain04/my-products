@@ -1,0 +1,95 @@
+{
+  "item": [
+    {
+      "id": "3fbd6ddd-dbd8-44d3-97e9-2e6c3d8020f5",
+      "name": "pet",
+      "item": [
+        null,
+        null,
+        {
+          "id": "2db9e59b-dc77-47b0-a5b6-f60d78006ec0",
+          "name": "{petId}",
+          "item": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null
+      ],
+      "event": []
+    },
+    {
+      "id": "be46fa42-f3c4-47d3-ad9e-8c3a46403f18",
+      "name": "store",
+      "item": [
+        null,
+        {
+          "id": "1be4b6ea-f086-4e2f-81e9-daa08e4816d6",
+          "name": "order",
+          "item": [
+            null,
+            {
+              "id": "a65e6cf3-dcca-4d81-a88a-543dc59d0736",
+              "name": "{orderId}",
+              "item": [
+                null,
+                null
+              ],
+              "event": []
+            }
+          ],
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "1f6c860b-681e-4e41-beff-5d7000ca2282",
+      "name": "user",
+      "item": [
+        null,
+        null,
+        {
+          "id": "5aad4203-7eac-44f4-b47e-40cdd9680b24",
+          "name": "{username}",
+          "item": [
+            null,
+            null,
+            null
+          ],
+          "event": []
+        },
+        null,
+        null,
+        null
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://petstore.swagger.io/v2",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "faefb24b-2be5-4b24-92cd-5474ced1528a",
+    "name": "Swagger Petstore",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.\n\nContact Support:\n Email: apiteam@swagger.io",
+      "type": "text/plain"
+    }
+  }
+}
