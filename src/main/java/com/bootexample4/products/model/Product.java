@@ -19,6 +19,9 @@ public class Product {
     private double price;
 
     public Long getId() {
+
+        int a = 0;
+        a = 1;
         return id;
     }
 
