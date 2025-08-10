@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+POST^|^http://petstore.swagger.io/v2/pet^|^{"type": "oauth2", "scopes":[{"scope": "write:pets", "description": "modify pets in your account"}, {"scope": "read:pets", "description": "read your pets"}]}^|^{"name": "doggies", "status": "available"}^|^200^|^{"id": "integer", "name": "string", "photoUrls": "array", "tags": "array", "status": "string"}

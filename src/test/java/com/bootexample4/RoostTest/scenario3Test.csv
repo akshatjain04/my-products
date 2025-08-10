@@ -1,0 +1,2 @@
+METHOD^|^URL^|^REQ_HEADERS^|^REQ_BODY^|^RESPONSE_CODE^|^RESPONSE_BODY
+POST^|^/pet^|^oauth2^|^{\"name\": \"doggie\",\"status\": \"available\"}^|^200^|^405^|^{"description" : "Invalid input"}
