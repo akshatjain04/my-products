@@ -1,0 +1,11 @@
+RequestBody^|^statusCode
+{"userId":101,"action":"create","timestamp":"2024-04-12T10:15:30Z"}^|^201
+{"userId":102,"action":"update","timestamp":"2024-04-13T11:20:45Z"}^|^400
+{"userId":103,"action":"delete","timestamp":"2024-04-14T09:05:12Z"}^|^401
+{"userId":104,"action":"create","timestamp":"2024-04-15T14:30:00Z"}^|^403
+{"userId":105,"action":"update","timestamp":"2024-04-16T16:45:22Z"}^|^404
+{"userId":106,"action":"delete","timestamp":"2024-04-17T08:55:10Z"}^|^406
+{"userId":107,"action":"create","timestamp":"2024-04-18T12:10:05Z"}^|^429
+{"userId":108,"action":"update","timestamp":"2024-04-19T13:25:40Z"}^|^500
+{"userId":109,"action":"delete","timestamp":"2024-04-20T15:35:55Z"}^|^503
+{"userId":110,"action":"create","timestamp":"2024-04-21T17:50:30Z"}^|^504
