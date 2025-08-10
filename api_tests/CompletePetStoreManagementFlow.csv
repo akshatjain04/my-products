@@ -1,0 +1,11 @@
+username^|^email^|^firstName^|^lastName^|^password^|^phone^|^petName^|^category^|^petStatus^|^quantity^|^shipDate^|^orderStatus^|^statusCode^|^scenario
+User1^|^user1@email.com^|^John^|^Doe^|^password123^|^1234567890^|^Buddy^|^Dog^|^Available^|^2^|^2022-01-15^|^Shipped^|^200^|^Scenario1
+User2^|^user2@email.com^|^Jane^|^Doe^|^password123^|^0987654321^|^Mittens^|^Cat^|^Unavailable^|^0^|^2022-01-16^|^Cancelled^|^500^|^Scenario2
+User3^|^user3@email.com^|^Jim^|^Bean^|^password123^|^1112223333^|^Goldie^|^Fish^|^Available^|^5^|^2022-01-17^|^In transit^|^300^|^Scenario3
+User4^|^user4@email.com^|^Jill^|^Smith^|^password123^|^4445556666^|^Whiskers^|^Cat^|^Unavailable^|^0^|^2022-01-18^|^Shipped^|^200^|^Scenario4
+User5^|^user5@email.com^|^Jake^|^Jones^|^password123^|^7778889999^|^Fido^|^Dog^|^Available^|^3^|^2022-01-19^|^In transit^|^300^|^Scenario5
+User6^|^user6@email.com^|^Jen^|^Davis^|^password123^|^1011121314^|^Bubbles^|^Fish^|^Unavailable^|^0^|^2022-01-20^|^Cancelled^|^500^|^Scenario6
+User7^|^user7@email.com^|^Joe^|^Brown^|^password123^|^1516171819^|^Rover^|^Dog^|^Available^|^4^|^2022-01-21^|^In transit^|^300^|^Scenario7
+User8^|^user8@email.com^|^Joyce^|^Wilson^|^password123^|^2021222324^|^Fluffy^|^Cat^|^Unavailable^|^0^|^2022-01-22^|^Shipped^|^200^|^Scenario8
+User9^|^user9@email.com^|^Jack^|^Taylor^|^password123^|^2526272829^|^Scooter^|^Dog^|^Available^|^6^|^2022-01-23^|^In transit^|^300^|^Scenario9
+User10^|^user10@email.com^|^Judy^|^Miller^|^password123^|^3031323334^|^Tickles^|^Fish^|^Unavailable^|^0^|^2022-01-24^|^Cancelled^|^500^|^Scenario10
