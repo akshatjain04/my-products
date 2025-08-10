@@ -1,0 +1,468 @@
+{
+  "item": [
+    {
+      "id": "3aa994fc-3914-4321-b28a-86190537c57b",
+      "name": "Create a Availability Check",
+      "request": {
+        "name": "Create a Availability Check",
+        "description": {},
+        "url": {
+          "path": [
+            "availabilityCheck"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": []
+        },
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "POST",
+        "auth": null,
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"customer\": {\n        \"customer\": {\n            \"subscriberId\": \"{{subscriberId}}\"\n        }\n    },\n    \"address\": {\n        \"address\": {\n            \"id\": \"{{id}}\",\n            \"complement\": {\n                \"complement\": {\n                    \"complements\": [\n                        \"{{complements}}\"\n                    ]\n                }\n            }\n        }\n    }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "response": [
+        {
+          "id": "f6edca05-4ec5-40f2-9081-3a7491a2157a",
+          "name": "successful operation",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"S\",\n    \"code\": 200,\n    \"message\": \"OK\"\n  },\n  \"resource\": {\n    \"inventoryId\": 1766156,\n    \"maxBandwidth\": 1000,\n    \"availabilityType\": 1,\n    \"availabilityCode\": 0,\n    \"availabilityDescription\": \"Viável - Viabilidade técnica confirmada\",\n    \"products\": {\n      \"product\": [\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_100MB\",\n          \"name\": \"VELOC_100MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_200MB\",\n          \"name\": \"VELOC_200MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_400MB\",\n          \"name\": \"VELOC_400MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_500MB\",\n          \"name\": \"VELOC_500MBPS\",\n          \"technology\": \"\"\n        },\n        {\n          \"type\": \"Banda Larga\",\n          \"catalogId\": \"BL_1000MB\",\n          \"name\": \"VELOC_1000MBPS\",\n          \"technology\": \"\",\n          \"best_offer\": true\n        }\n      ]\n    }\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "1d702889-00c1-496d-9dbd-c178e1a2c2c4",
+          "name": "Bad Request",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 400,\n    \"message\": \"OSB Validate action failed validation\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "05d332a2-bc8b-437e-ba84-f50291676cda",
+          "name": "Unauthorized",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Unauthorized",
+          "code": 401,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 401,\n    \"message\": \"Unauthorized\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "748a20f3-2b4b-4967-96fe-2d0bb0b6bce8",
+          "name": "Forbidden - Scope Not Permitted",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Forbidden",
+          "code": 403,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 403,\n    \"message\": \"Forbidden - Scope Not Permitted\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "d51d2ddd-5e92-4d2e-80f6-3eff53e1bc08",
+          "name": "Not Found",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 404,\n    \"message\": \"Not Found\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "a31ad482-e907-4a88-9153-8ce1951c6ae7",
+          "name": "Too Many Requests - Exceeded Quota",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Too Many Requests",
+          "code": 429,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"E\",\n    \"code\": 429,\n    \"message\": \"Too Many Requests - Exceeded Quota\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "9e0f7ca4-2e7c-4e22-a63b-1497e2d7d6c1",
+          "name": "Internal Server Error",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Internal Server Error",
+          "code": 500,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 500,\n    \"message\": \"Internal Server Error\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "e9e192f0-dc0c-41b4-9bd3-66f9322c4ae9",
+          "name": "Service Unavailable",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Service Unavailable",
+          "code": 503,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 503,\n    \"message\": \"Service Unavailable\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        },
+        {
+          "id": "f8d9e5cb-8e45-48eb-af02-06fb9594dfcf",
+          "name": "Gateway Timeout",
+          "originalRequest": {
+            "url": {
+              "path": [
+                "availabilityCheck"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"customer\": {\n        \"subscriberId\": \"{{subscriberId}}\"\n    },\n    \"address\": {\n        \"id\": \"{{id}}\",\n        \"complement\": {\n            \"complements\": [\n                \"{{complements}}\"\n            ]\n        }\n    }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "status": "Gateway Timeout",
+          "code": 504,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"control\": {\n    \"type\": \"T\",\n    \"code\": 504,\n    \"message\": \"Gateway Timeout\"\n  }\n}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              " \n// ********RoostGPT********\n/*\nTest generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\nTest generated by RoostGPT for test MiniProjects using AI Type Azure Open AI and AI Model roostgpt-4-32k\n\n\nTest generated for /availabilityCheck for http method type post in postman framework\n\n*/\n\n// ********RoostGPT********\n\n\nconst ld = require('lodash');\nlet responseData;\nconst contentType = pm.response.headers.get('Content-Type');\nif(contentType === \"application/xml\"){\n    var parseString = require('xml2js').parseString;\n    parseString(pm.response.body, function (err,result) {\n      if (err) {\n        console.error('Error parsing XML:', err);\n      } else {\n        responseData = result;  \n      }\n    });\n} else{\n    responseData = pm.response.json();\n}\nif (pm.variables.get(\"statusCode\")) {\n  // Compare the statusCode variable with the response code for assertion\n    pm.expect(parseInt(pm.variables.get(\"statusCode\"))).to.be.equal(pm.response.code);\n}\n\n// let responseTime = 800\n// pm.expect(pm.response.responseTime).to.be.below(responseTime);\n\nif (pm.response.code == 200){\n    pm.test(\"successful operation\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"OK\");\n        pm.test('Response has the `control` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`control`)){\n                if(pm.expect(ld.get(pm.response.json(), `control`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `control`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `control.type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`control.type`)){\n                if(pm.expect(ld.get(pm.response.json(), `control.type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `control.type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('control.type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"control.type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('control.type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"control.type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `control.message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`control.message`)){\n                if(pm.expect(ld.get(pm.response.json(), `control.message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `control.message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('control.message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"control.message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `control.code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`control.code`)){\n                if(pm.expect(ld.get(pm.response.json(), `control.code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `control.code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('control.code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"control.code\", \"\").length).to.be.at.most(3);\n        })\n\n        pm.test('Response has the `resource.resource` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`resource.resource`)){\n                if(pm.expect(ld.get(pm.response.json(), `resource.resource`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `resource.resource`, null)).to.equal(\"object\");\n                }\n\n            }\n\n        })\n\n        pm.test('Response has the `resource.resource.inventoryId` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`resource.resource.inventoryId`)){\n                if(pm.expect(ld.get(responseData, `resource.resource.inventoryId`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `resource.resource.inventoryId`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n  \n        pm.test('resource.resource.inventoryId length to be atmost `50`',function(){\n            pm.expect(ld.get(responseData, \"resource.resource.inventoryId\", \"\").length).to.be.at.most(50);\n        })\n\n        pm.test('Response has the `resource.resource.maxBandwidth` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`resource.resource.maxBandwidth`)){\n                if(pm.expect(ld.get(responseData, `resource.resource.maxBandwidth`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `resource.resource.maxBandwidth`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('resource.resource.maxBandwidth to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"resource.resource.maxBandwidth\", \"\")).to.include.oneOf([\"100\",\"200\",\"400\",\"500\",\"1000\"]);\n        })\n\n        pm.test('Response has the `resource.resource.availabilityType` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`resource.resource.availabilityType`)){\n                if(pm.expect(ld.get(responseData, `resource.resource.availabilityType`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `resource.resource.availabilityType`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('resource.resource.availabilityType to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"resource.resource.availabilityType\", \"\")).to.include.oneOf([\"1\",\"2\",\"3\"]);\n        })\n\n        pm.test('Response has the `resource.resource.availabilityCode` field',function(){\n            if(pm.expect(responseData).to.have.nested.property(`resource.resource.availabilityCode`)){\n                if(pm.expect(ld.get(responseData, `resource.resource.availabilityCode`, 200)).to.exist){\n                  pm.expect(typeof ld.get(responseData, `resource.resource.availabilityCode`, 200)).to.equal(\"number\");\n                }\n\n            }\n\n        })\n \n        pm.test('resource.resource.availabilityCode to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"resource.resource.availabilityCode\", \"\")).to.include.oneOf([\"0\"]);\n        })\n\n        pm.test('Response has the `resource.resource.availabilityDescription` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`resource.resource.availabilityDescription`)){\n                if(pm.expect(ld.get(pm.response.json(), `resource.resource.availabilityDescription`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `resource.resource.availabilityDescription`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('resource.resource.availabilityDescription length to be atmost `4000`',function(){\n            pm.expect(ld.get(responseData, \"resource.resource.availabilityDescription\", \"\").length).to.be.at.most(4000);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 400){\n    pm.test(\"Bad Request\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Bad Request\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 401){\n    pm.test(\"Unauthorized\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Unauthorized\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 403){\n    pm.test(\"Forbidden - Scope Not Permitted\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Forbidden\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 404){\n    pm.test(\"Not Found\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Not Found\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 429){\n    pm.test(\"Too Many Requests - Exceeded Quota\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Too Many Requests\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 500){\n    pm.test(\"Internal Server Error\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Internal Server Error\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 503){\n    pm.test(\"Service Unavailable\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Service Unavailable\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n\nif (pm.response.code == 504){\n    pm.test(\"Gateway Timeout\", function () {\n        pm.expect(pm.response.status).to.be.eql(\"Gateway Timeout\");\n        pm.test('Response has the `type` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`type`)){\n                if(pm.expect(ld.get(pm.response.json(), `type`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `type`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n \n        pm.test('type to be one of enum', function(){ \n            pm.expect(ld.get(responseData, \"type\", \"\")).to.include.oneOf([\"S\",\"T\",\"E\"]);\n        })\n  \n        pm.test('type length to be atmost `1`',function(){\n            pm.expect(ld.get(responseData, \"type\", \"\").length).to.be.at.most(1);\n        })\n\n        pm.test('Response has the `message` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`message`)){\n                if(pm.expect(ld.get(pm.response.json(), `message`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `message`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('message length to be atmost `250`',function(){\n            pm.expect(ld.get(responseData, \"message\", \"\").length).to.be.at.most(250);\n        })\n\n        pm.test('Response has the `code` field',function(){\n            if(pm.expect(pm.response.json()).to.have.nested.property(`code`)){\n                if(pm.expect(ld.get(pm.response.json(), `code`, null)).to.exist){\n                  pm.expect(typeof ld.get(pm.response.json(), `code`, null)).to.equal(\"string\");\n                }\n\n            }\n\n        })\n  \n        pm.test('code length to be atmost `3`',function(){\n            pm.expect(ld.get(responseData, \"code\", \"\").length).to.be.at.most(3);\n        })\n\n    });\n\n}\n"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "/",
+      "key": "baseUrl"
+    },
+    {
+      "type": "integer",
+      "value": 200,
+      "key": "statusCode"
+    }
+  ],
+  "info": {
+    "_postman_id": "9073e390-83d6-4b6a-96e8-1c7646949179",
+    "name": "ResourcePoolManagement",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "",
+      "type": "text/plain"
+    }
+  }
+}
